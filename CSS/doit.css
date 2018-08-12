@@ -1,0 +1,84 @@
+/* Author: Mary Walsh McGinty
+Date: 3/08/18
+Desc: An external CSS file to support the index.html file for the 
+registeration process section of a college website*/
+
+
+
+body{
+    background-color: #F1E9DB
+}
+.container{
+    width: auto;
+    height: auto;
+   
+    
+}
+/*Code for the header section */
+header{
+background-color:/* #008dd5*/  #38DFF2/* #5DB7DE*/;
+width: auto;
+height: 15rem;
+padding-top: 4rem
+
+}
+/* Code for the nav bar */
+a {
+    width: auto;
+}
+a, .dropbtn {
+   text-align: left;
+    color: #000000;
+    padding: 3rm;
+    font: 1.5em sans-serif;
+    border: none;
+   
+    display: block;
+   
+}
+
+.navbar a:hover, .dropdown:hover  .dropbtn{
+    background-color:lightgray;
+    width: 95 px;
+    color:te;
+    text-decoration: none;
+    
+}
+.dropdown{
+    position: relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display: none;
+    padding: 0.50rem;
+    position: absolute;
+    background-color: #0679f3;
+    min-width: 100%;
+    box-shadow: 0rem 8rem 0rem 0rem rgba(0,0,0,0, 0.2);
+    z-index:  1;
+}
+.dropdown-content a{
+    color: #000;
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: lightgray;
+    min-width: 100%;
+}
+
+.show{
+    display: block;
+}
+.navbar-nav .nav-link:hover{
+    color: darkslategrey !important;
+}
+
+.formReg{
+    padding: 3rm;
+
+}

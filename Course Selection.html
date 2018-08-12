@@ -26,17 +26,18 @@
    <nav class="navbar navbar-expand-md navbar-expand-lg 
                 navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
        <div class="navbar-nav">
-           <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
+           <a class="nav-item nav-link active" href="javascript:void(0)" onclick="studentDrpDn()">Home</a>
            <div class="dropdown" >   
            <a class="nav-item nav-link dropbtn"     id="studentDropdown"
            aria-haspopup="true" aria-expanded="false"
             href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
-            <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
-                <a  href="registration.html">Registration</a>
+           <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
+               <a  href="registration.html">Registration</a> <!-- the file name from the registration page will go here, into the href attribute-->
                <a  href="#">Library</a>
                <a  href="#">Timetable</a>
                <a  href="#">Software</a>
-               <!-- <a  href="Course Selection.html">Course Selection</a> -->
+               <a  href="Course Selection.html">Course selection</a>
+
            </div><!--closes dropdown menu-->
        </div> <!--closes dropdown-->
            <a class="nav-item nav-link" href="#">News & Events</a>
@@ -44,28 +45,24 @@
        </div> <!--closes navbar-nav-->
    </nav> <!--closes the nav bar-->
    <section class="container" id=" mainContent">
-           <!-- This is the main body of the webpage where the code for the different pages of the website will go-->
-    <h1>Registration</h1>
-    <div id ="registeration_Div">
-        <form id="Registration">
 
-                <div id="formReg">  Name:          <input type="firstName" name="firstName" /><br /> </div>
-                <div id="formReg">  Second Name:   <input type="secondName" name="secondName" /><br /> </div>
-                <!-- Password: <input type="password" name="password" /><br /> -->
-                <div id="formReg">  Date of Birth: <input type="date" name="date" /><br /></div>
-                <div id="formReg">  Email:         <input type="email" name="email" /><br /></div>
-                <div id="formReg">  Telephone:     <input type="phone" name="phone" /><br /></div>
-                <div id="formReg">  Mobile:        <input type="mobile" name="mobile" /><br /></div>
-                <div id="formReg">  Address:       <input type="address" name="address" /><br /></div>
-                <div id="formReg">  EIR Code:      <input type="eirCode" name="eir" /><br /></div>
-    
-            <input type="submit" value="Submit" />
-        </form>
-    </div>
-
+        <!-- This will store drop downs of the courses availible -->
+        <div class="dropdown" >   
+            <h2>Please select a course</h2>
+            <a class="nav-item nav-link dropbtn"     id="studentDropdown"
+                aria-haspopup="true" aria-expanded="false"
+                 href="#">Courses</a> <!-- aria classes are used for assistive devices-->
+                 
+                <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
+                    <a  href="registration.html">Course 1</a> <!-- the file name from the registration page will go here, into the href attribute-->
+                    <a  href="registration.html">Course 2</a>
+                    <a  href="registration.html">Course 3</a>
+                    <a  href="registration.html">Course 4</a>
+                </div><!--closes dropdown menu-->
+        </div> <!--closes dropdown-->
 
     </section>
-     <footer class="footer bg-dark text-white" >
+    <footer class="footer bg-dark text-white" >
         <h3>This is the footer </h3>
            <p> and will contain address,email etc of college</p>
         </footer>
