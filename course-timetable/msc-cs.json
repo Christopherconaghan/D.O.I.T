@@ -1,0 +1,229 @@
+
+{
+    "course":"MSC Computer Science",
+    "course_id" :"MSCCS",
+    "time_table" :[{
+        "day" :"Monday",
+        "cource_details":[{
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "9 AM - 10 AM",
+            "room_id" :"Room No:2286",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "10 AM - 11 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "11 AM - 12 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "12 PM - 1 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "2 PM - 3 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "3 PM - 4  PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        }]
+    },
+    {
+        "day" :"Tuesday",
+        "cource_details":[{
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "9 AM - 10 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "10 AM - 11 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "11 AM - 12 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "12 PM - 1 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "2 PM - 3 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "3 PM - 4  PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        }]
+    },
+    {
+        "day" :"Wednesday",
+        "cource_details":[{
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "9 AM - 10 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "10 AM - 11 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "11 AM - 12 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "12 PM - 1 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "2 PM - 3 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "3 PM - 4  PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        }]
+    }, {
+        "day" :"Thursday",
+        "cource_details":[{
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "9 AM - 10 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "10 AM - 11 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "11 AM - 12 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "12 PM - 1 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "2 PM - 3 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "3 PM - 4  PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        }]
+    }
+    ,{
+        "day" :"Friday",
+        "cource_details":[{
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "9 AM - 10 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "10 AM - 11 AM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "11 AM - 12 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"OOPS-Python",
+            "subject_code" :"ML",
+            "time": "12 PM - 1 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps S/W Mgmt",
+            "subject_code" :"ML",
+            "time": "2 PM - 3 PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        },
+        {
+            "subject" :"DevOps Process Mgmt",
+            "subject_code" :"ML",
+            "time": "3 PM - 4  PM",
+            "room_id" :"Room No:2866",
+            "faculty" : "Prof.Jackson"
+        }]
+    }]
+}
