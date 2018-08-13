@@ -9,42 +9,42 @@
             "subject_code" :"ML",
             "time": "9 AM - 10 AM",
             "room_id" :"Room No:2286",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "10 AM - 11 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "11 AM - 12 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"OOPS-Python",
             "subject_code" :"ML",
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "3 PM - 4  PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         }]
     },
     {
@@ -54,42 +54,42 @@
             "subject_code" :"ML",
             "time": "9 AM - 10 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "10 AM - 11 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "11 AM - 12 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"OOPS-Python",
             "subject_code" :"ML",
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "3 PM - 4  PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         }]
     },
     {
@@ -99,42 +99,42 @@
             "subject_code" :"ML",
             "time": "9 AM - 10 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "10 AM - 11 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "11 AM - 12 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"OOPS-Python",
             "subject_code" :"ML",
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "3 PM - 4  PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         }]
     }, {
         "day" :"Thursday",
@@ -143,42 +143,42 @@
             "subject_code" :"ML",
             "time": "9 AM - 10 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "10 AM - 11 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "11 AM - 12 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"OOPS-Python",
             "subject_code" :"ML",
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "3 PM - 4  PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         }]
     }
     ,{
@@ -188,42 +188,42 @@
             "subject_code" :"ML",
             "time": "9 AM - 10 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "10 AM - 11 AM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "11 AM - 12 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"OOPS-Python",
             "subject_code" :"ML",
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         },
         {
             "subject" :"DevOps Process Mgmt",
             "subject_code" :"ML",
             "time": "3 PM - 4  PM",
             "room_id" :"Room No:2866",
-            "faculty" : "Prof.Jackson"
+            "faculty" : "Prof.Ruth Lennon"
         }]
     }]
 }
