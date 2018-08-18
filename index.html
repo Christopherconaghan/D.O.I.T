@@ -20,16 +20,24 @@
     <div class="container-fluid"><!--opens page container-->
         <!--contains header code--> 
         <header class="headerContent  text-muted" id="header">
-         <h1 class="display-5  pxy-3 my-4 text-center text-sm-left text-md-center text-dark">
-             DevOps Institute of Technology</h1>  
+                <div class="container-fluid">
+                        <div class="row">
+                           <div class="logo col-sm-0 col-md-4 col-lg-4 h-100 py-4"><img src="images/header_logo.png" alt="A logo of the college" width="50%" height="50%"></div>
+                             
+                           <div class="header_title col-sm-12 col-md-8 col-lg-8">
+                            <h1 class=" h-100  py-5 display-5 text-left text-sm-left text-md-left text-lg-left text-dark" >
+                                  DevOps Institute of Technology</h1>
+                                 </div> 
+                                </div>    <!--closes header row-->
+                                </div> <!--closes header container-->  
         </header>
 
         <!--navigation bar with the links to the other pages-->
     <nav class="navbar navbar-expand-md navbar-expand-lg 
                  navbar-expand-xl  navbar-dark text-white justify-content-center">
-      <div class="container-fluid">          
+              
          <div class="navbar-nav">
-             <a class="nav-item nav-link active" href="javascript:void(0)" onclick="studentDrpDn()">Home</a>
+             <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
              <div class="dropdown" >   
                  <a class="nav-item nav-link dropbtn"     id="studentDropdown"
                         aria-haspopup="true" aria-expanded="false"
@@ -38,13 +46,13 @@
                      <a  href="#">Registration</a>
                      <a  href="#">Library</a>
                      <a  href="#">Timetable</a>
-                 <a  href="#">Software</a>
+                      <a  href="#">Software</a>
             </div><!--closes dropdown menu-->
         </div> <!--closes dropdown-->
-            <a class="nav-item nav-link" href="#">News & Events</a>
-            <a class="nav-item nav-link" href="#">Staff</a>
+            <a class="nav-item nav-link" href="news.html">News & Events</a>
+            <a class="nav-item nav-link" href="staff.html">Staff</a>
         </div> <!--closes navbar-nav-->
-    </div> <!--closes nav container-->
+    
     </nav> <!--closes the nav bar-->
     <section class="container-fluid" id=" mainContent">
         <div class="carousel slide" id="carousel_homePage"  data-ride="carousel">
