@@ -23,14 +23,25 @@
          <h1 class="display-4 text-center text-sm-left text-md-center text-dark"  >DoIT | DevOps Institute of Technology</h1>  
         </header>
 
-        <!--navigation bar with the links to the other pages-->
-    <nav class="navbar navbar-expand-md navbar-expand-lg 
-                 navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
-			<!-- <a class="nav-item nav-link" href="#">Home</a> -->
-        </div> <!--closes navbar-nav-->
-    </nav> <!--closes the nav bar-->
+        <nav class="navbar navbar-expand-md navbar-expand-lg 
+        navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
+<div class="navbar-nav">
+   <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
+   <div class="dropdown" >   
+   <a class="nav-item nav-link dropbtn"     id="studentDropdown"
+   aria-haspopup="true" aria-expanded="false"
+    href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
+    <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
+        <a  href="registration.html">Registration</a>
+        <a  href="#">Library</a>
+        <a  href="time-table.html">Timetable</a>
+         <a  href="#">Software</a>
+</div><!--closes dropdown menu-->
+</div> <!--closes dropdown-->
+   <a class="nav-item nav-link" href="#">News & Events</a>
+   <a class="nav-item nav-link" href="#">Staff</a>
+</div> <!--closes navbar-nav-->
+</nav> <!--closes the nav bar-->
     <section class="container" id=" mainContent">
         
                     <div class="container-fluid">
@@ -97,7 +108,7 @@
            }
        }
 
-	   <!--logic for time table-->
+	//    <!--logic for time table-->
         $(document).ready(function () { 
 
             $.getJSON('course-timetable/msc-cs.json', function (data) {
