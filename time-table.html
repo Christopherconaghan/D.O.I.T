@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Initial Page </title>
+    <title>Timetable Page </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/doit.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
@@ -19,18 +19,12 @@
 </head>
 <body>
     <div class="container-fluid"><!--opens page container-->
-        <header class="headerContent  text-muted" id="header">
-         <h1 class="display-4 text-center text-sm-left text-md-center text-dark"  >DoIT | DevOps Institute of Technology</h1>  
-        </header>
+        
 
         <!--navigation bar with the links to the other pages-->
-    <nav class="navbar navbar-expand-md navbar-expand-lg 
-                 navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
-			<!-- <a class="nav-item nav-link" href="#">Home</a> -->
-        </div> <!--closes navbar-nav-->
-    </nav> <!--closes the nav bar-->
+    
+            <a href="index.html">Home</a>
+			
     <section class="container" id=" mainContent">
         
                     <div class="container-fluid">
@@ -69,35 +63,16 @@
 </div>
 
     </section>
-        <footer class="footer bg-dark text-white" >
-            <h3>This is the footer </h3>
-               <p> and will contain address,email etc of college</p>
-            </footer>
+        
     </div><!-- closes page container-->
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script><!--load the bootstrap files last-->
+<!--load the bootstrap files last-->
     <!--As with the css file load any java script file here-->  
    <script>
        /* a function to show  the dropdown selection from Student hub*/
-       function studentDrpDn(){
-           document.getElementById("studhub").classList.toggle("show");
-       }
-       /* to close the dropdown after the user leaves*/
-       window.onclick= function(e){
-           if(!e.target.matches('.dropbtn')){
-               var dropdowns = document.getElementsByClassName("dropdown-content");
-               for(var d=0;d<dropdowns.length; d++){
-                   var openDropdown = dropdowns[d];
-                   if(openDropdown.classList.contains('show')){
-                       openDropdown.classList.remove('show');
-                   }
-               }
-           }
-       }
+       
 
-	   <!--logic for time table-->
+	   //--logic for time table
         $(document).ready(function () { 
 
             $.getJSON('course-timetable/msc-cs.json', function (data) {
@@ -120,7 +95,7 @@
                                 $.each(data.time_table[time_index].cource_details,function(sub_time_index){
                                     if(data.time_table[time_index].cource_details[sub_time_index].time==time)
                                     {
-                                       rowhtml= rowhtml+ '<td>'+data.time_table[time_index].cource_details[sub_time_index].subject+"<br /> " +data.time_table[time_index].cource_details[sub_time_index].room_id+'</td>'
+                                       rowhtml= rowhtml+ '<td class="'+data.time_table[time_index].cource_details[sub_time_index].subject_code+'">'+data.time_table[time_index].cource_details[sub_time_index].subject+"<br /> " +data.time_table[time_index].cource_details[sub_time_index].room_id+"<br /> " +data.time_table[time_index].cource_details[sub_time_index].faculty+'</td>'
                                     }
                                 });
                             
@@ -132,5 +107,11 @@
             });
         });
     </script>
+
 </body>
+<style>
+.lunch{
+ background-color:   rgba(120, 120, 120, 1)
+}
+</style>
 </html>
