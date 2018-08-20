@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--Author : Renuka Allbanur-->
+<!--Date : 15/08/18-->
+<!--A DevOps group project-->
+<!--A web site which will allow students to complete their registeration online-->
+
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Initial Page </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" media="screen" href="css/doit.css"/>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+   <!--load the bootstrap files last--> 
+   <!-- if you want to override the bootstrap css file place it here-->   
+</head>
+<body>
+  <header class="headerContent  text-muted" id="header">
+    <div class="form-group">
+      <img class="header-logo" src="images/header_logo.png" alt="Header Logo">
+      <h1 class="display-4 text-center text-sm-left text-md-center text-dark header-name">DoIT | DevOps Institute of Technology</h1>  
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-md bg-primary navbar-dark">    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link menuitem" data-toggle="collapse" href="#divhome">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle menuitem" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Student Hub
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divregisttration">Registration</a>
+            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divtimetable">Time Table</a>
+            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divlibrary">Library</a>
+            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divsoftwares">Softwares</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menuitem" data-toggle="collapse" href="news.hhtml">News & Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menuitem" data-toggle="collapse" href="staff.html">Staff</a>
+        </li>        
+      </ul>
+    </div>
+  </nav>
+   <section class="container content">
+      <div class="collapse show" id="divhome">
+          <img class="home_image" src="images/home_img.jpg" alt="Home image">
+          <p>
+              
+
+          </p>
+      </div>
+      <div class="collapse" id="divregisttration"> 
+        <div id="divsignin" class="container" style="height: 60% !important; width: 300px !important;display: block;padding-top: 5%">
+          <form class="form-signin">
+            <div>
+              <div>
+                <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">ID</span>
+                  </div>
+                  <input id="inpusername" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby=" basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">key</span>
+                  </div>
+                  <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
+                </div>
+              </div>      
+              <div class="form-group">
+                <button class="btn btn-lg btn-success btn-block" type="submit"onclick="validatedata()">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+              </div>    
+                <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
+              </div> 
+            </div> 
+          </form>
+        </div>
+        <!-- This section is for to reset account[L00149524]-->
+        <div id="divemail" class="container" style="height: 60% !important; width: 300px !important;padding-top: 5%; display: none;">
+          <form class="form-signin">
+            <div>
+              <div class="form-group">
+                <div class="input-group mb-3">          
+                  <input id="inpemail" type="text" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+                </div>
+              </div>      
+              <div class="form-group">
+                <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>     
+              </div>
+              <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" type="submit" onclick="togglesigninandaccountresetsection()">Cancel</button>
+              </div>     
+            </div> 
+          </form>
+        </div>
+      </div>
+      <div class="collapse" id="divtimetable">Time table</div>
+      <div class="collapse" id="divlibrary">library</div>
+      <div class="collapse" id="divsoftwares">softwares</div>
+      <div class="collapse" id="divnewsandevents">new and events</div>
+      <div class="collapse" id="divstaff">staff</div>
+   </section>
+
+  <footer class="footer bg-dark text-white footer-align" >
+    <p>© Do IT, Letterkenny</p>
+  </footer>
+  <!--As with the css file load any java script file here-->  
+  <script>
+     /* a function to show  the dropdown selection from Student hub*/
+     function studentDrpDn(){
+         document.getElementById("studhub").classList.toggle("show");
+     }
+     /* to close the dropdown after the user leaves*/
+     window.onclick= function(e){
+         if(e.target.matches('.menuitem')){
+             var navitems = document.getElementsByClassName("nav-item");
+             for(var d=0;d<navitems.length; d++){
+                 navitems[d].classList.remove('active');
+             }             
+             var parentelement = e.target.parentNode.getAttribute('class') != 'dropdown-menu' ? e.target.parentNode : e.target.parentNode.parentNode;
+             parentelement.classList.add('active');
+
+             //var anchoritems = document.getElementsByClassName(".dropdown-item .menuitem");
+             //for(var d=0;d<anchoritems.length; d++){
+             //    anchoritems[d].classList.remove('active');
+             //}
+             //e.target.classList.add('active');
+
+             var sectionname = e.target.getAttribute('href');             
+             var sections = document.getElementsByClassName("collapse");
+             for(var d=0;d<sections.length; d++){
+                 var currentsection = sections[d];
+                 if(currentsection.getAttribute('id') != sectionname.replace('#','')){
+                    currentsection.classList.remove('show');
+                 }
+             }
+         }
+     }
+     /* function to handle toggling of signin and account reset section[L00149524]*/  
+    function togglesigninandaccountresetsection() {
+      var signin = document.getElementById("divsignin");
+      document.getElementById("lblerror").style.display = "none";
+      if (signin.style.display === "none") {
+            signin.style.display = "block";
+        } else {
+            signin.style.display = "none";
+        }
+
+        var accountreset = document.getElementById("divemail");
+        if (accountreset.style.display === "none") {
+            accountreset.style.display = "block";
+        } else {
+            accountreset.style.display = "none";
+        }
+
+    }
+    /* function to handle validation for signin details[L00149524]*/  
+    function validatedata() {
+      var username = document.getElementById("inpusername");
+      var password = document.getElementById("inppassword");
+      var error = document.getElementById("lblerror");
+      if (username.value == "" || password.value == "") {
+            error.style.display = "block";
+        } else {
+            error.style.display = "none";
+        }
+
+    }
+  </script>
+</body>
+</html>

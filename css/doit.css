@@ -11,30 +11,27 @@ body{
 .container{
     width: auto;
     height: auto;
-   
-    
 }
 /*Code for the header section */
 header{
-background-color:/* #008dd5*/  #38DFF2/* #5DB7DE*/;
+background-color:#cef0ff /*#008dd5 #38DFF2 #5DB7DE*/;
 width: auto;
-height: 15rem;
-padding-top: 4rem
-
+height: 5rem;
+padding-top: 1%;
 }
 /* Code for the nav bar */
 a {
     width: auto;
 }
-a, .dropbtn {
-   text-align: left;
+
+.menuitem {  
+
+    text-align: left;
     color: #000000;
     padding: 3rm;
-    font: 1.5em sans-serif;
     border: none;
-   
     display: block;
-   
+    font: 1.2em sans-serif;
 }
 
 .navbar a:hover, .dropdown:hover  .dropbtn{
@@ -76,4 +73,36 @@ a, .dropbtn {
 }
 .navbar-nav .nav-link:hover{
     color: darkslategrey !important;
+}
+
+.header-logo{
+    height: 100px !important;
+    padding-bottom: 3% !important;
+    padding-left: 1%;
+}
+
+.header-name{
+    float: right !important;
+    padding-right: 54% !important;
+    padding-top: 0.5%;
+}
+
+.footer-align{
+    height: 50px !important;
+    text-align: center; 
+    padding-top: 0.75%;
+}
+
+.content{
+    height: 478px !important;
+}
+
+.display-4{
+    font-size: 2rem !important
+}
+
+.home_image{
+    height: 300px;
+    padding-top: 1%;
+    padding-left: 290px;
 }
