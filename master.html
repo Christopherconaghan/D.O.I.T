@@ -16,6 +16,12 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANUeiZbsEGj-78lWvc_7LQIAfG6ZozkBM&callback=myMap"></script>
+
+      <script src="js/jquery.slim.min.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
    <!--load the bootstrap files last--> 
    <!-- if you want to override the bootstrap css file place it here-->   
 </head>
@@ -37,7 +43,7 @@
             Student Hub
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divregisttration">Registration</a>
+            <a class="dropdown-item menuitem" data-toggle="collapse" href="#divregistration">Registration</a>
             <a class="dropdown-item menuitem" data-toggle="collapse" href="#divtimetable">Time Table</a>
             <a class="dropdown-item menuitem" data-toggle="collapse" href="#divlibrary">Library</a>
             <a class="dropdown-item menuitem" data-toggle="collapse" href="#divsoftwares">Softwares</a>
@@ -54,7 +60,7 @@
   </nav>
    <!-- <section class="container content"> -->
     <section class="container">
-      <!--<div class="collapse show" id="divhome">
+      <div class="collapse show" id="divhome">
         <div class="carousel slide" id="carousel_homePage"  data-ride="carousel" style="padding-top: 1%">
           <div class="carousel-inner">
                   <div class="carousel-item  active">
@@ -95,8 +101,8 @@
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
 
         </p>
-      </div>-->
-      <div class="collapse" id="divregisttration"> 
+      </div>
+      <div class="collapse" id="divregistration"> 
         <div id="divsignin" class="container" style="height: 60% !important; width: 300px !important;display: block;padding-top: 5%">
           <form class="form-signin">
             <div>
@@ -117,12 +123,13 @@
                   <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
                 </div>
               </div>      
-              <!--<div class="form-group">
-                <button class="btn btn-lg btn-success btn-block" type="submit"onclick="validatedata()">Sign in</button>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
-              </div>    
+              <div class="form-group">
+                <button class="btn btn-lg btn-success btn-block" type="submit" onclick="validatedata()">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="openregistrationform()">Register</button>
+              </div>
+              <div>   
                 <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
-              </div> -->
+              </div>
             </div> 
           </form>
         </div> 
@@ -144,9 +151,75 @@
             </div> 
           </form>
         </div>
+        <div id="divregistraionform" class="container" style="height: 60% !important; width: 300px !important;padding-top: 5%; display: none;">
+          <h1>Register</h1>
+          <div id ="registeration_Div">
+              <form class="form-register">
+                <div>
+                  <div>
+                    <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text">Name</span>
+                      </div>
+                      <input id="inpName" type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Surname</span>
+                        </div>
+                        <input id="inpSurName" type="text" class="form-control" placeholder="Surname">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text">Password</span>
+                      </div>
+                      <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Repeat Password</span>
+                            </div>
+                            <input id="inppassword" type="password" class="form-control" placeholder="Repeat Password">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Date of Birth</span>
+                        </div>
+                        <input id="inpdate" type="date" class="form-control" placeholder="Date">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Mobile</span>
+                            </div>
+                            <input id="inpnumber" type="number" class="form-control" placeholder="Mobile">
+                    </div>
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Address</span>
+                            </div>
+                            <input id="inpAddress" type="text" class="form-control" placeholder="Address">
+                    </div> 
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Email</span>
+                            </div>
+                            <input id="inpEmail" type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-lg btn-success btn-block" type="submit">Submit</button>
+                    </div>
+                  </div>
+                  <span class="psw"><a href="LoginPage.html" onclick="openregistrationform()">Already have account?</a></span>
+                </div> 
+             </form>
+          </div>
+        </div>
       </div> 
       <div class="collapse" id="divtimetable">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding-top: 1% !important">
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
@@ -207,9 +280,41 @@
       </div>
    </section>
 
-  <footer class="footer bg-dark text-white footer-align" >
-    <p>© Do IT, Letterkenny</p>
-  </footer>
+  <footer class="footer bg-secondary text-body py-5"  ><!--Contains the footer content-->
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 align-self-start">
+                          
+                                    <i class="material-icons" style="font-size: 2.25em">business</i>
+                                <address>DoIT Institute of Technology<br>
+                                Harbour Lane<br>
+                                ParcelKenny<br>
+                                Co. Donegal<br>
+                                F98 ABC4<br>
+                                </address>
+                         </div>
+                         <div class="col-sm-4 col-md-4 col-lg-4">
+                             <!--h-100 height 100%-->
+                                <div class="h-100" id="map"  ></div>  
+                                
+                                  <div class="py-3 text-body">
+                                    <small>Copyright &copy;<strong> DoIT Inistitute of Technology 2018 </strong> </small>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <ul  class="list-unstyled py-5  text-body text-md-center">
+                                      <li><i class="material-icons ">call</i>  074 635241</li> 
+                                      <li><i class="material-icons">email</i>  doit@hea.net</li>
+                    
+                                    </ul><!--closes ul -->
+                                    <div class="text-body text-md-center">
+                                    <a href="#" class="badge badge-secondary pxy-5  ">User Acceptance Policy</a>
+                                     </div><!--closes user acceptance-->
+                             </div><!--closes contact ways--> 
+                </div><!--closes row-->
+
+     </div><!--closes container-->
+  </footer> 
   <!--As with the css file load any java script file here-->  
   <script>
      /* a function to show  the dropdown selection from Student hub*/
@@ -231,15 +336,19 @@
              //    anchoritems[d].classList.remove('active');
              //}
              //e.target.classList.add('active');
-
-             var sectionname = e.target.getAttribute('href');             
-             var sections = document.getElementsByClassName("collapse");
-             for(var d=0;d<sections.length; d++){
-                 var currentsection = sections[d];
-                 if(currentsection.getAttribute('id') != sectionname.replace('#','')){
-                    currentsection.classList.remove('show');
-                 }
-             }
+             var sectionname = e.target.getAttribute('href'); 
+             if(sectionname != null && sectionname != ""){
+               var sections = document.getElementsByClassName("collapse");
+               for(var d=0;d<sections.length; d++){
+                   var currentsection = sections[d];
+                   if(currentsection.getAttribute('id') != sectionname.replace('#','')){
+                      currentsection.classList.remove('show');
+                   }
+               }
+             } 
+         }
+         else{
+           e.preventDefault();
          }
      }
      /* function to handle toggling of signin and account reset section[L00149524]*/  
@@ -260,6 +369,26 @@
         }
 
     }
+
+    function openregistrationform() {
+      var signin = document.getElementById("divsignin");
+      document.getElementById("lblerror").style.display = "none";
+      if (signin.style.display === "none") {
+            signin.style.display = "block";
+        } else {
+            signin.style.display = "none";
+        }
+
+        var registrationform = document.getElementById("divregistraionform");
+        if (registrationform.style.display === "none") {
+            registrationform.style.display = "block";
+        } else {
+            registrationform.style.display = "none";
+        }
+
+    }
+
+    
     /* function to handle validation for signin details[L00149524]*/  
     function validatedata() {
       var username = document.getElementById("inpusername");
@@ -273,7 +402,17 @@
 
     }
 
-    $(document).ready(function () { 
+    function myMap(){
+        var mapOptions={
+            center:new google.maps.LatLng(54.949575,-7.726339),
+            zoom:10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+    var map = new google.maps.Map(document.getElementById("map"),mapOptions);
+    }
+
+    /*$(document).ready(function () {
+
 
             $.getJSON('course-timetable/msc-cs.json', function (data) {
               
@@ -305,7 +444,7 @@
 
 
             });
-        });
+        });*/
   </script>
 </body>
 </html>
