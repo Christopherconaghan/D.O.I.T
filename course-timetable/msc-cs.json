@@ -33,6 +33,15 @@
             "faculty" : "Prof.Ruth Lennon"
         },
         {
+            "subject" :"Lunch Break",
+            "subject_code" :"lunch",
+            "time": "1 PM - 2 PM",
+            "room_id" :"",
+            "faculty" : "",
+            "cssclass_id" :"lunch"
+        },
+        
+        {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
             "time": "2 PM - 3 PM",
@@ -76,6 +85,14 @@
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
             "faculty" : "Prof.Ruth Lennon"
+        },
+         {
+            "subject" :"Lunch Break",
+            "subject_code" :"lunch",
+            "time": "1 PM - 2 PM",
+            "room_id" :"",
+            "faculty" : "",
+            "cssclass_id" :"lunch"
         },
         {
             "subject" :"DevOps S/W Mgmt",
@@ -122,6 +139,13 @@
             "room_id" :"Room No:2866",
             "faculty" : "Prof.Ruth Lennon"
         },
+         {
+            "subject" :"Lunch Break",
+            "subject_code" :"lunch",
+            "time": "1 PM - 2 PM",
+            "room_id" :"",
+            "faculty" : ""
+        },
         {
             "subject" :"DevOps S/W Mgmt",
             "subject_code" :"ML",
@@ -165,6 +189,13 @@
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
             "faculty" : "Prof.Ruth Lennon"
+        },
+         {
+            "subject" :"Lunch Break",
+            "subject_code" :"lunch",
+            "time": "1 PM - 2 PM",
+            "room_id" :"",
+            "faculty" : ""
         },
         {
             "subject" :"DevOps S/W Mgmt",
@@ -210,6 +241,13 @@
             "time": "12 PM - 1 PM",
             "room_id" :"Room No:2866",
             "faculty" : "Prof.Ruth Lennon"
+        },
+         {
+            "subject" :"Lunch Break",
+            "subject_code" :"lunch",
+            "time": "1 PM - 2 PM",
+            "room_id" :"",
+            "faculty" : ""
         },
         {
             "subject" :"DevOps S/W Mgmt",

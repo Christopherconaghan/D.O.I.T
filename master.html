@@ -11,6 +11,7 @@
    <title>Initial Page </title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" type="text/css" media="screen" href="css/doit.css"/>
+   <link rel="stylesheet" type="text/css" media="screen" href="css/timetable.css"/>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -53,35 +54,35 @@
   </nav>
    <!-- <section class="container content"> -->
     <section class="container">
-      <div class="collapse show" id="divhome">
-          <div class="carousel slide" id="carousel_homePage"  data-ride="carousel" style="padding-top: 1%">
-            <div class="carousel-inner">
-                    <div class="carousel-item  active">
-                            <img class="d-block w-100  expand" style="height: 500px !important" src="images/building.jpg" alt="An educational building ">
-                            <div class="carousel-caption d-none d-md-block">
-                                    <h1 class="display-1 text-body">Welcome to  the DevOps Institute of Technology</h1>
-                                    <h3 class="text-white">The gateway to success</h3>
-                                  </div>
-                        </div> 
-              <div class="carousel-item ">
-                <img class="d-block w-100 expand"  style="height: 500px !important" src="images/lightbulb-connections.jpg" alt="lightbulb shape with educational symbols">               
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 expand" style="height: 500px !important" src="images/work_together.jpg" alt="students working together">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-2 text-body">Working together</h1>
-                    <h3 class="text-body">Helping each other along the way</h3>
-                  </div>
-              </div>   
-              <div class="carousel-item">
-                <img class="d-block w-100" style="height: 500px !important" src="images/the_future.jpg" alt="picture of people walking away">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class=" display-2">To our future careers</h1>
-                    <h3 class="text-dark">Current and  relevant courses for today's professions </h3>
-                  </div>
-              </div>
+      <!--<div class="collapse show" id="divhome">
+        <div class="carousel slide" id="carousel_homePage"  data-ride="carousel" style="padding-top: 1%">
+          <div class="carousel-inner">
+                  <div class="carousel-item  active">
+                          <img class="d-block w-100  expand" style="height: 500px !important" src="images/building.jpg" alt="An educational building ">
+                          <div class="carousel-caption d-none d-md-block">
+                                  <h1 class="display-1 text-body">Welcome to  the DevOps Institute of Technology</h1>
+                                  <h3 class="text-white">The gateway to success</h3>
+                                </div>
+                      </div> 
+            <div class="carousel-item ">
+              <img class="d-block w-100 expand"  style="height: 500px !important" src="images/lightbulb-connections.jpg" alt="lightbulb shape with educational symbols">               
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 expand" style="height: 500px !important" src="images/work_together.jpg" alt="students working together">
+              <div class="carousel-caption d-none d-md-block">
+                  <h1 class="display-2 text-body">Working together</h1>
+                  <h3 class="text-body">Helping each other along the way</h3>
+                </div>
+            </div>   
+            <div class="carousel-item">
+              <img class="d-block w-100" style="height: 500px !important" src="images/the_future.jpg" alt="picture of people walking away">
+              <div class="carousel-caption d-none d-md-block">
+                  <h1 class=" display-2">To our future careers</h1>
+                  <h3 class="text-dark">Current and  relevant courses for today's professions </h3>
+                </div>
             </div>
           </div>
+        </div>
         
       
         <p>
@@ -94,7 +95,7 @@
              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
 
         </p>
-      </div>
+      </div>-->
       <div class="collapse" id="divregisttration"> 
         <div id="divsignin" class="container" style="height: 60% !important; width: 300px !important;display: block;padding-top: 5%">
           <form class="form-signin">
@@ -116,15 +117,15 @@
                   <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
                 </div>
               </div>      
-              <div class="form-group">
+              <!--<div class="form-group">
                 <button class="btn btn-lg btn-success btn-block" type="submit"onclick="validatedata()">Sign in</button>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
               </div>    
                 <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
-              </div> 
+              </div> -->
             </div> 
           </form>
-        </div>
+        </div> 
         <!-- This section is for to reset account[L00149524]-->
         <div id="divemail" class="container" style="height: 60% !important; width: 300px !important;padding-top: 5%; display: none;">
           <form class="form-signin">
@@ -143,8 +144,29 @@
             </div> 
           </form>
         </div>
+      </div> 
+      <div class="collapse" id="divtimetable">
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Cert in DevOps-
+                                    <label id="course_name"> Time Table
+                                        </label>
+                                </h4>
+                                <div class="table-responsive" >
+                                    <table class="table table-bordered" id="time-table">
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
       </div>
-      <div class="collapse" id="divtimetable">Time table</div>
       <div class="collapse" id="divlibrary">library</div>
       <div class="collapse" id="divsoftwares">softwares</div>
       <div class="collapse" id="divnewsandevents">
@@ -250,6 +272,40 @@
         }
 
     }
+
+    $(document).ready(function () { 
+
+            $.getJSON('course-timetable/msc-cs.json', function (data) {
+              
+                var rowheadhtml= '<thead><tr><th></th>';
+
+                $.each(data.time_table, function(index) {     
+                    rowheadhtml =rowheadhtml+'<th>' + data.time_table[index].day + '</th>';
+                });
+                $('#time-table').append(rowheadhtml+'</thead></tr>');
+
+                    //var day = data.time_table[index].day;
+                    $.each(data.time_table[0].cource_details,function(sub_index){
+                        var time = data.time_table[0].cource_details[sub_index].time
+                        //alert(time)
+                        var rowhtml = '<tr><td><d>'+time+'</b></td>';
+                        //$('#time-table').append('');
+                        $.each(data.time_table ,function(time_index){
+                           
+                                $.each(data.time_table[time_index].cource_details,function(sub_time_index){
+                                    if(data.time_table[time_index].cource_details[sub_time_index].time==time)
+                                    {
+                                       rowhtml= rowhtml+ '<td class="'+data.time_table[time_index].cource_details[sub_time_index].subject_code+'">'+data.time_table[time_index].cource_details[sub_time_index].subject+"<br /> " +data.time_table[time_index].cource_details[sub_time_index].room_id+"<br /> " +data.time_table[time_index].cource_details[sub_time_index].faculty+'</td>'
+                                    }
+                                });
+                            
+                        });
+                        $('#time-table').append(rowhtml+'</tr>');
+                    }); 
+
+
+            });
+        });
   </script>
 </body>
 </html>
