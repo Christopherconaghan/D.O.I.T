@@ -35,7 +35,7 @@ a {
 }
 
 .navbar a:hover, .dropdown:hover  .dropbtn{
-    background-color:lightgray;
+    background-color:none;
     width: 95 px;
     color:te;
     text-decoration: none;
@@ -64,7 +64,7 @@ a {
     display: block;
 }
 .dropdown-content a:hover{
-    background-color: lightgray;
+    background-color: none;
     min-width: 100%;
 }
 
