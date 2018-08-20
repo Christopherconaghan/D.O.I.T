@@ -25,16 +25,16 @@
    <nav class="navbar navbar-expand-md navbar-expand-lg 
                 navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
        <div class="navbar-nav">
-           <a class="nav-item nav-link active" onclick="loadhomepage()">Home</a>
+           <a class="nav-item nav-link active" href="index.html" onclick="loadhomepage()">Home</a>
            <div class="dropdown" >   
            <a class="nav-item nav-link dropbtn"     id="studentDropdown"
            aria-haspopup="true" aria-expanded="false"
             href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
             <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
-                <a  href="registration.html">Registration</a>
-                <a  href="#">Library</a>
+                <a  href="LoginPage.html">Registration</a>
+                <a  href="linrary.html">Library</a>
                 <a  href="time-table.html">Timetable</a>
-                 <a  href="#">Software</a>
+                 <a  href="software.html">Software</a>
        </div><!--closes dropdown menu-->
     </div> <!--closes dropdown-->
            <a class="nav-item nav-link" href="#">News & Events</a>
@@ -79,7 +79,7 @@
           </div>      
           <div class="form-group">
             <button class="btn btn-lg btn-success btn-block" type="submit"onclick="validatedata()">Sign in</button>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit" ><a href="registration.html">Register</a> </button>
           </div>    
             <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
         </div> 
@@ -117,14 +117,15 @@
 <script src="js/bootstrap.min.js"></script><!--load the bootstrap files last-->
 <!--As with the css file load any java script file here-->  
 <script> 
+window.onload = function(e){
+    loadloginpage();
+}
    /*$(document).ready(function(){
     $("#registration").click(function(){
         $("#mainContent").load("login.html");
     });
-
     
 });   */  
-
     /* a function to show  the dropdown selection from Student hub*/
    function studentDrpDn(){
       document.getElementById("studhub").classList.toggle("show");
@@ -165,16 +166,19 @@
         } else {
             signin.style.display = "none";
         }
-
         var accountreset = document.getElementById("divemail");
         if (accountreset.style.display === "none") {
             accountreset.style.display = "block";
         } else {
             accountreset.style.display = "none";
         }
-
     }
     /* function to handle validation for signin details[L00149524]*/  
+    // function navigate()
+    // {
+    //     var url = "registration.html";
+    //     window.location(url);
+    // }
     function validatedata() {
       var username = document.getElementById("inpusername");
       var password = document.getElementById("inppassword");
@@ -184,16 +188,11 @@
         } else {
             error.style.display = "none";
         }
-
     }
    
     
-
-
    
-
    
-
 </script>
 </body>
 </html>
