@@ -32,29 +32,28 @@
                                 </div> <!--closes header container-->  
         </header>
 
-        <!--navigation bar with the links to the other pages-->
-    <nav class="navbar navbar-expand-md navbar-expand-lg 
-                 navbar-expand-xl  navbar-dark text-white justify-content-center">
-              
-         <div class="navbar-nav">
-             <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
-             <div class="dropdown" >   
-                 <a class="nav-item nav-link dropbtn"     id="studentDropdown"
-                        aria-haspopup="true" aria-expanded="false"
-                         href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
-                 <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
-                     <a  href="LoginPage.html">Registration</a>
-                     <a  href="#">Library</a>
-                     <a  href="time-table.html">Timetable</a>
-                      <a  href="#">Software</a>
-            </div><!--closes dropdown menu-->
-        </div> <!--closes dropdown-->
-            <a class="nav-item nav-link" href="news.html">News & Events</a>
-            <a class="nav-item nav-link" href="staff.html">Staff</a>
+
+       <!--navigation bar with the links to the other pages-->
+       <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
+            <div class="dropdown" >   
+                <a class="nav-item nav-link dropbtn"     id="studentDropdown"
+                aria-haspopup="true" aria-expanded="false"
+                href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
+                <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
+                    <a  href="LoginPage.html">Registration</a>
+                    <a  href="library.html">Library</a>
+                    <a  href="time-table.html">Timetable</a>
+                    <a  href="software.html">Software</a>
+                </div><!--closes dropdown menu-->
+            </div> <!--closes dropdown-->
+            <a class="nav-item nav-link" href="#">News & Events</a>
+            <a class="nav-item nav-link" href="#">Staff</a>
         </div> <!--closes navbar-nav-->
-    
-    </nav> <!--closes the nav bar-->
-    <section class="container-fluid" id=" mainContent">
+        </nav> <!--closes the nav bar-->
+
+<section class="container-fluid" id=" mainContent">
         <div class="carousel slide" id="carousel_homePage"  data-ride="carousel">
             <div class="carousel-inner">
                     <div class="carousel-item  active">
