@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--Author@ Mary Walsh McGinty-->
+<!--Date@ 03/08/18-->
+<!--A DevOps group project-->
+<!--A web site which will allow students to complete their registeration online-->
+
 <html>
 <head>
    <meta charset="utf-8" />
@@ -13,18 +18,9 @@
 </head>
 <body>
    <div class="container-fluid"><!--opens page container-->
-    <header class="headerContent  text-muted" id="header">
-            <div class="container-fluid">
-                    <div class="row">
-                       <div class="logo col-sm-0 col-md-4 col-lg-4 h-100 py-4"><img src="images/header_logo.png" alt="A logo of the college" width="50%" height="50%"></div>
-                         
-                       <div class="header_title col-sm-12 col-md-8 col-lg-8">
-                        <h1 class=" h-100  py-5 display-5 text-left text-sm-left text-md-left text-lg-left text-dark" >
-                              DevOps Institute of Technology</h1>
-                             </div> 
-                            </div>    <!--closes header row-->
-                            </div> <!--closes header container-->  
-    </header>
+       <header class="headerContent  text-muted" id="header">
+        <h1 class="display-4 text-center text-sm-left text-md-center text-dark"  >DoIT | DevOps Institute of Technology</h1>  
+       </header>
 
        <!--navigation bar with the links to the other pages-->
    <nav class="navbar navbar-expand-md navbar-expand-lg 
@@ -36,10 +32,10 @@
            aria-haspopup="true" aria-expanded="false"
             href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
             <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
-                    <a  href="LoginPage.html">Registration</a>
-                    <a  href="library.html">Library</a>
-                    <a  href="time-table.html">Timetable</a>
-                    <a  href="software.html">Software</a>
+                <a  href="registration.html">Registration</a>
+                <a  href="#">Library</a>
+                <a  href="time-table.html">Timetable</a>
+                 <a  href="#">Software</a>
        </div><!--closes dropdown menu-->
        </div> <!--closes dropdown-->
            <a class="nav-item nav-link" href="#">News & Events</a>
@@ -48,133 +44,36 @@
    </nav> <!--closes the nav bar-->
    <section class="container" id=" mainContent">
            <!-- This is the main body of the webpage where the code for the different pages of the website will go-->
-    <h1>Register</h1>
+    <h1>Registration</h1>
     <div id ="registeration_Div">
-            <form class="form-register">
-                <div>
-                      <div>
-                        <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
-                      </div>
-
-                      <div class="form-group">
-                        <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">Name</span>
-                        </div>
-                        <input id="inpName" type="text" class="form-control" placeholder="Name">
-                        </div>
-
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Surname</span>
-                            </div>
-                            <input id="inpSurName" type="text" class="form-control" placeholder="Surname">
-                        </div>
-
-                        <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">Password</span>
-                        </div>
-                        <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
-                        </div>
-
-                        <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Repeat Password</span>
-                                </div>
-                                <input id="inppassword" type="password" class="form-control" placeholder="Repeat Password">
-                                </div>
-                      </div> 
-                      
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">Date of Birth</span>
-                            </div>
-                            <input id="inpdate" type="date" class="form-control" placeholder="Date">
-                            </div>
-                        
-                        <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Mobile</span>
-                                </div>
-                                <input id="inpnumber" type="number" class="form-control" placeholder="Mobile">
-                                </div>
-                        </div> 
-
-                        <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Address</span>
-                                </div>
-                                <input id="inpAddress" type="text" class="form-control" placeholder="Address">
-                                </div>
-                        </div> 
-
-                        <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Email</span>
-                                </div>
-                                <input id="inpEmail" type="email" class="form-control" placeholder="Email">
-                                </div>
-                        </div>
-
-                    </div> 
-                      <div class="form-group">
-                        <button class="btn btn-lg btn-primary btn-block" type="submit" ><a href="index.html">Register</a></button>
-                      </div>  
-
-                      <span class="psw"><a href="LoginPage.html" onclick="">Alredy have account?</a></span>
-                </div> 
-    </div> 
-           </form>
-        
+        <form id="Registration">
+<table>
+    <tr>
+  
+        <tr> <div id="formReg">  Name:          <input type="firstName" name="firstName" /><br /> </div>        </tr>
+            <tr>    <div id="formReg">  Second Name:   <input type="secondName" name="secondName" /><br /> </div>        </tr>
+            <tr><!-- Password: <input type="password" name="password" /><br /> -->        </tr>
+                <tr><div id="formReg">  Date of Birth: <input type="date" name="date" /><br /></div>        </tr>
+                    <tr>   <div id="formReg">  Email:         <input type="email" name="email" /><br /></div>        </tr>
+                        <tr> <div id="formReg">  Telephone:     <input type="phone" name="phone" /><br /></div>        </tr>
+                            <tr>  <div id="formReg">  Mobile:        <input type="mobile" name="mobile" /><br /></div>        </tr>
+                                <tr>     <div id="formReg">  Address:       <input type="address" name="address" /><br /></div>        </tr>
+                                    <tr>  <div id="formReg">  EIR Code:      <input type="eirCode" name="eir" /><br /></div>        </tr>
+            </tr>
+        </table> 
+            <input type="submit" value="Submit" />
+        </form>
     </div>
 
 
     </section>
-    <footer class="footer bg-secondary text-body py-5"  ><!--Contains the footer content-->
-        <div class="container-fluid">
-            <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4 align-self-start">
-                          
-                                    <i class="material-icons" style="font-size: 2.25em">business</i>
-                                <address>DoIT Institute of Technology<br>
-                                Harbour Lane<br>
-                                ParcelKenny<br>
-                                Co. Donegal<br>
-                                F98 ABC4<br>
-                                </address>
-                         </div>
-                         <div class="col-sm-4 col-md-4 col-lg-4">
-                             <!--h-100 height 100%-->
-                                <div class="h-100" id="map" ></div>	
-                                <script >
-                                        function myMap(){
-                                            var mapOptions={
-                                                center:new google.maps.LatLng(54.949575,-7.726339),
-                                                zoom:10,
-                                                mapTypeId: google.maps.MapTypeId.ROADMAP
-                                            }
-                                        var map = new google.maps.Map(document.getElementById("map"),mapOptions);
-                                        }
-                                    </script> 
-                                  <div class="py-3 text-body">
-                                   <small>Copyright &copy;<strong> DoIT Inistitute of Technology 2018 </strong> </small>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <ul  class="list-unstyled py-5 text-body text-md-center">
-                                      <li><i class="material-icons ">call</i>  074 635241</li> 
-                                      <li><i class="material-icons">email</i>  doit@hea.net</li>
-                                    </ul><!--closes ul -->
-                                    <div class="text-body text-md-center">
-                                        <a href="#" class="badge badge-secondary pxy-5">User Acceptance Policy</a>
-                                         </div><!--closes user acceptance--> 
-                             </div><!--closes contact ways--> 
-                </div><!--closes row-->
+     <footer class="footer bg-dark text-white" >
+        
+           <p> © Copyright 2018 by DevOps IT , Port Road, Letterkenny, County Donegal, F92 FC93, Ireland T:+353 (0)74 918 6000
 
-     </div><!--closes container-->
-     
-  </footer> 
+            Cookie & Privacy Policy Legal information Sitemap
+            </p>
+        </footer>
 </div><!-- closes page container-->
 
 <script src="js/jquery.slim.min.js"></script>
@@ -201,20 +100,3 @@
 </script>
 </body>
 </html>
-<!-- <form id="Registration">
-<table>
-    <tr>
-  
-        <tr> <div id="formReg">  Name:          <input type="firstName" name="firstName" /><br /> </div>        </tr>
-            <tr>    <div id="formReg">  Second Name:   <input type="secondName" name="secondName" /><br /> </div>        </tr>
-            <tr> Password: <input type="password" name="password" /><br />         </tr>
-            <tr><div id="formReg">  Date of Birth: <input type="date" name="date" /><br /></div>        </tr>
-            <tr>   <div id="formReg">  Email:         <input type="email" name="email" /><br /></div>        </tr>
-                <tr> <div id="formReg">  Telephone:     <input type="phone" name="phone" /><br /></div>        </tr>
-                    <tr>  <div id="formReg">  Mobile:        <input type="mobile" name="mobile" /><br /></div>        </tr>
-                        <tr>     <div id="formReg">  Address:       <input type="address" name="address" /><br /></div>        </tr>
-                            <tr>  <div id="formReg">  EIR Code:      <input type="eirCode" name="eir" /><br /></div>        </tr>
-    </tr>
-</table> 
-    <input type="submit" value="Submit" />
-</form> -->

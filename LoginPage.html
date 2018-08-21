@@ -17,35 +17,26 @@
 </head>
 <body>
    <div class="container-fluid"><!--opens page container-->
-    <header class="headerContent  text-muted" id="header">
-            <div class="container-fluid">
-                    <div class="row">
-                       <div class="logo col-sm-0 col-md-4 col-lg-4 h-100 py-4"><img src="images/header_logo.png" alt="A logo of the college" width="50%" height="50%"></div>
-                         
-                       <div class="header_title col-sm-12 col-md-8 col-lg-8">
-                        <h1 class=" h-100  py-5 display-5 text-left text-sm-left text-md-left text-lg-left text-dark" >
-                              DevOps Institute of Technology</h1>
-                             </div> 
-                            </div>    <!--closes header row-->
-                            </div> <!--closes header container-->  
-    </header>
+       <header class="headerContent  text-muted" id="header">
+        <h1 class="display-4 text-center text-sm-left text-md-center text-dark"  >DoIT | DevOps Institute of Technology</h1>  
+       </header>
 
        <!--navigation bar with the links to the other pages-->
    <nav class="navbar navbar-expand-md navbar-expand-lg 
                 navbar-expand-xl bg-dark navbar-dark text-white justify-content-center">
        <div class="navbar-nav">
-           <a class="nav-item nav-link active" href="index.html" onclick="loadhomepage()">Home</a>
+           <a class="nav-item nav-link active">Home</a>
            <div class="dropdown" >   
            <a class="nav-item nav-link dropbtn"     id="studentDropdown"
            aria-haspopup="true" aria-expanded="false"
             href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
-            <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
-                <a  href="LoginPage.html">Registration</a>
-                <a  href="linrary.html">Library</a>
-                <a  href="time-table.html">Timetable</a>
-                 <a  href="software.html">Software</a>
-       </div><!--closes dropdown menu-->
-    </div> <!--closes dropdown-->
+           <div class="dropdown-content" aria-labelledby="studentDropdown" id="studHub"> 
+               <a  href="#">Registration</a> <!-- the file name from the registration page will go here, into the href attribute-->
+               <a  href="#">Library</a>
+               <a  href="#">Timetable</a>
+               <a  href="#">Software</a>
+           </div><!--closes dropdown menu-->
+       </div> <!--closes dropdown-->
            <a class="nav-item nav-link" href="#">News & Events</a>
            <a class="nav-item nav-link" href="#">Staff</a>
        </div> <!--closes navbar-nav-->
@@ -88,7 +79,7 @@
           </div>      
           <div class="form-group">
             <button class="btn btn-lg btn-success btn-block" type="submit"onclick="validatedata()">Sign in</button>
-            <button class="btn btn-lg btn-primary btn-block" type="submit" ><a href="registration.html">Register</a> </button>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
           </div>    
             <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
         </div> 
@@ -126,15 +117,14 @@
 <script src="js/bootstrap.min.js"></script><!--load the bootstrap files last-->
 <!--As with the css file load any java script file here-->  
 <script> 
-window.onload = function(e){
-    loadloginpage();
-}
    /*$(document).ready(function(){
     $("#registration").click(function(){
         $("#mainContent").load("login.html");
     });
+
     
 });   */  
+
     /* a function to show  the dropdown selection from Student hub*/
    function studentDrpDn(){
       document.getElementById("studhub").classList.toggle("show");
@@ -175,19 +165,16 @@ window.onload = function(e){
         } else {
             signin.style.display = "none";
         }
+
         var accountreset = document.getElementById("divemail");
         if (accountreset.style.display === "none") {
             accountreset.style.display = "block";
         } else {
             accountreset.style.display = "none";
         }
+
     }
     /* function to handle validation for signin details[L00149524]*/  
-    // function navigate()
-    // {
-    //     var url = "registration.html";
-    //     window.location(url);
-    // }
     function validatedata() {
       var username = document.getElementById("inpusername");
       var password = document.getElementById("inppassword");
@@ -197,11 +184,16 @@ window.onload = function(e){
         } else {
             error.style.display = "none";
         }
+
     }
    
     
+
+
    
+
    
+
 </script>
 </body>
 </html>

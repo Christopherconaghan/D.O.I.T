@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--Author@ Mary Walsh McGinty-->
+<!--Date@ 03/08/18-->
+<!--A DevOps group project-->
+<!--A web site which will allow students to complete their registeration online-->
+
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>DoIT Institute of Technology </title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="import" href="layout/header.html" > -->
+   
+   <link rel="stylesheet" type="text/css" media="screen" href="css/doit.css"/>
+   <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+       <!-- if you want to override the bootstrap css file place it here-->
+   
+</head>
+<body>
+   <div class="container-fluid" id="container"><!--opens page container-->
+    <!--contains header code-->
+    <header class="headerContent  text-muted" id="header">
+      <!--  <div w3-include-html="layout/header.html"></div>-->
+     <div class="container-fluid">
+        <div class="row">
+           <div class="logo col-sm-0 col-md-4 col-lg-4 h-100 py-4"><img src="images/header_logo.png" alt="A logo of the college" width="50%" height="50%"></div>
+             
+           <div class="header_title col-sm-12 col-md-8 col-lg-8">
+            <h1 class=" h-100  py-5 display-5 text-left text-sm-left text-md-left text-lg-left text-dark" >
+                  DevOps Institute of Technology</h1>
+                 </div> 
+                </div>    <!--closes header row-->
+                </div> <!--closes header container-->        
+    </header>
+    
+
+      <!--navigation bar with the links to the other pages-->
+      <nav class="navbar navbar-expand-md navbar-expand-lg 
+      navbar-expand-xl  navbar-dark text-white  justify-content-center sticky-top">
+    
+     <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html" onclick="studentDrpDn()">Home</a>
+        <div class="dropdown" >   
+        <a class="nav-item nav-link dropbtn"     id="studentDropdown"
+        aria-haspopup="true" aria-expanded="false"
+         href="#">Student Hub</a> <!-- aria classes are used for assistive devices-->
+        <div class="dropdown-content " aria-labelledby="studentDropdown" id="studHub"> 
+            <a  href="#">Registration</a> <!-- the file name from the registration page will go here, into the href attribute-->
+            <a  href="#">Library</a>
+            <a  href="#">Timetable</a>
+            <a  href="#">Software</a>
+        </div><!--closes dropdown menu-->
+      </div> <!--closes dropdown-->
+        <a class="nav-item nav-link" href="news.html">News & Events</a>
+        <a class="nav-item nav-link" href="staff.html">Staff</a>
+    </div> <!--closes navbar-nav-->
+
+</nav> <!--closes the nav bar--> 
+   <section class="container" id=" mainContent">
+        <!--Contains Code for the news page-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="news1 col-lg-6 col-md-6 col-sm-6">
+                    <img class="img-fluid" src="images/tooBusy.jpg" >
+                </div>
+                <div class="news1 col-lg-6 col-md-6 col-sm-6">
+                    <h2>Staff </h2>
+                    <h3>Keep trying </h3>
+                    </div>
+            </div><!--closes row-->
+            <div class="row">
+                    <div class="news1 col-lg-6 col-md-6 col-sm-6">
+                        <img class="img-fluid" src="images/shell.gif">
+                    </div>
+                    <div class="news1 col-lg-6 col-md-6 col-sm-6">
+                        <h2>No Holidays  </h2>
+                        <h3>You can't hide </h3>
+                        </div>
+                </div><!--closes row-->
+       </div><!--closes main div-->
+    </section>
+    <footer class="footer bg-secondary text-body py-5"  ><!--Contains the footer content-->
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 align-self-start">
+                          
+                                    <i class="material-icons" style="font-size: 2.25em">business</i>
+                                <address>DoIT Institute of Technology<br>
+                                Harbour Lane<br>
+                                ParcelKenny<br>
+                                Co. Donegal<br>
+                                F98 ABC4<br>
+                                </address>
+                         </div>
+                         <div class="col-sm-4 col-md-4 col-lg-4">
+                             <!--h-100 height 100%-->
+                                <div class="h-100" id="map"  ></div>	
+                                <script >
+                                        function myMap(){
+                                            var mapOptions={
+                                                center:new google.maps.LatLng(54.949575,-7.726339),
+                                                zoom:10,
+                                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                                            }
+                                        var map = new google.maps.Map(document.getElementById("map"),mapOptions);
+                                        }
+                                    </script>
+                                  <div class="py-3 text-body">
+                                    <small>Copyright &copy;<strong> DoIT Inistitute of Technology 2018 </strong> </small>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <ul  class="list-unstyled py-5  text-body text-md-center">
+                                      <li><i class="material-icons ">call</i>  074 635241</li> 
+                                      <li><i class="material-icons">email</i>  doit@hea.net</li>
+                    
+                                    </ul><!--closes ul -->
+                                    <div class="text-body text-md-center">
+                                    <a href="#" class="badge badge-secondary pxy-5  ">User Acceptance Policy</a>
+                                     </div><!--closes user acceptance-->
+                             </div><!--closes contact ways--> 
+                </div><!--closes row-->
+
+     </div><!--closes container-->
+  </footer> 
+
+</div><!-- closes page container-->
+
+
+<script>
+  $(function(){
+      $("#header").load("layout/header.html");
+  });
+</script>
+<script>
+        /* a function to show  the dropdown selection from Student hub*/
+        function studentDrpDn(){
+            document.getElementById("studhub").classList.toggle("show");
+        }
+        /* to close the dropdown after the user leaves*/
+        window.onclick= function(e){
+            if(!e.target.matches('.dropbtn')){
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for(var d=0;d<dropdowns.length; d++){
+                    var openDropdown = dropdowns[d];
+                    if(openDropdown.classList.contains('show')){
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+     </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANUeiZbsEGj-78lWvc_7LQIAfG6ZozkBM&callback=myMap"></script>  
+      <script src="js/jquery.slim.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.js"></script>
+      <script src="js/bootstrap.min.js"></script><!--load the bootstrap files last-->
+     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+     
+     <!--As with the css file load any java script file here-->  
+</body>
+</html>
