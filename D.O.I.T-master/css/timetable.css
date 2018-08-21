@@ -1,0 +1,30 @@
+/* Author: Nimmy Augustine
+Date: 10/08/18
+Desc: An external CSS file to support the time-table.html file for the 
+online course registeration section of a college website  */
+
+
+table#time-table {
+    width:100%;
+}
+table#time-table, table#time-table th, table#time-table td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+table#time-table th, table#time-table td {
+    padding: 10px;
+	text-align: left;
+	font-size:15px;
+}
+table#time-table tr:nth-child(even) {
+    background-color: #eee;
+}
+table#time-table tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+table#time-table tr:hover {background-color: #ddd;}
+
+.lunch{
+ background-color:   rgba(120, 120, 120, 1)
+}
