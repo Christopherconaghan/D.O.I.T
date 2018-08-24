@@ -41,9 +41,9 @@
 										<div>Email: info.admissions@devops.it</div>
 									</li>
 								</ul>
-								<div class="top_bar_login ml-auto">
+								<!-- <div class="top_bar_login ml-auto">
 									<div class="login_button"><a href="#">Register or Login</a></div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
