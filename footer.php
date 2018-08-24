@@ -1,6 +1,4 @@
-	<!-- ************************************
-			Framwork template Footer Start
-	 	 ************************************ -->
+<!-- Framwork template Footer Start -->
 
 	<!-- Newsletter -->
 
@@ -135,7 +133,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>
 		</div>
 	</footer>
-</div> <!-- Close Super Container -->
+</div> <!-- Super Container Footer Close-->
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>

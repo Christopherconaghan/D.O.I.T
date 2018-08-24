@@ -1,6 +1,7 @@
 <?php include "header.php";?>
 
 
+
 	<div class="home">
 		<div class="home_slider_container">
 			
