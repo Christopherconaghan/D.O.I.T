@@ -86,7 +86,7 @@
 										<ul>
 											<li><a href="index.php">Home</a></li>
 											<li><a href="#">About</a></li>
-											<li><a href="#">Contact</a></li>
+											<li><a href="contact.php">Contact</a></li>
 											<li><a href="#">Features</a></li>
 											<li><a href="#">Courses</a></li>
 											<li><a href="#">Events</a></li>

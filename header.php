@@ -67,7 +67,7 @@
 									<li><a href="#">Courses</a></li>
 									<li><a href="#">Timetable</a></li>
 									<li><a href="#">News</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="contact.php">Contact</a></li>
 									<li><a href="#">About</a></li>
 								</ul>
 								<!-- Hamburger -->
