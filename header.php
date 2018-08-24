@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
 </head>
 <body>
 
@@ -61,7 +62,7 @@
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li class="active"><a href="#">Home</a></li>
+									<li class=""><a href="#">Home</a></li>
 									
 									<li><a href="#">Courses</a></li>
 									<li><a href="#">Timetable</a></li>
@@ -71,7 +72,7 @@
 								</ul>
 								<!-- Hamburger -->
 
-								<div class="shopping_cart"><i class="fa fa-user" aria-hidden="true"></i></div>
+								<div class="shopping_cart"><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
