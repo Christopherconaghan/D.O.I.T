@@ -342,6 +342,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
+	border-bottom: 1px solid #535353;
 }
 .header_content
 {
@@ -355,6 +356,7 @@ section
 .header.scrolled .header_content
 {
 	height: 80px;
+
 }
 
 /*********************************

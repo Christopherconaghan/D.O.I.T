@@ -236,7 +236,7 @@
 				<div class="row fill_height">
 					<div class="col fill_height">
 						<form class="counter_form_content d-flex flex-column align-items-center justify-content-center" action="#">
-							<div class="counter_form_title">courses now</div>
+							<div class="counter_form_title">Got A Question</div>
 							<input type="text" class="counter_input" placeholder="Your Name:" required="required">
 							<input type="tel" class="counter_input" placeholder="Phone:" required="required">
 							<select name="counter_select" id="counter_select" class="counter_input counter_options">
