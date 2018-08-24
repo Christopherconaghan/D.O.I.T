@@ -766,7 +766,7 @@ section
 .home
 {
 	width: 100%;
-	height: 850px;
+	height: 650px;
 }
 .home_slider_container
 {
@@ -794,12 +794,12 @@ section
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: bottom center;
 }
 .home_slider_content
 {
 	position: absolute;
-	top: 25%;
+	top: 10%;
 	left: 0;
 	width: 100%;
 	height: auto;
