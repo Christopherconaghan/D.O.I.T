@@ -81,3 +81,4 @@
 	</div>
 
 <?php include "footer.php";?>
+<script src="js/contact.js"></script>
