@@ -11,8 +11,6 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<!-- <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css"> -->
 <link rel="stylesheet" type="text/css" href="styles/combined.css">
 </head>
 <body>
@@ -41,9 +39,6 @@
 										<div>Email: info.admissions@devops.it</div>
 									</li>
 								</ul>
-								<!-- <div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -64,7 +59,7 @@
 								<ul class="main_nav">
 									<li class=""><a href="index.php">Home</a></li>
 									
-									<li><a href="courseselection.php">Courses</a></li>
+									<li><a href="courseSelection.php">Courses</a></li>
 									<li><a href="#">Timetable</a></li>
 									<li><a href="#">News</a></li>
 									<li><a href="contact.php">Contact</a></li>
@@ -103,7 +98,7 @@
 		<nav class="menu_nav">
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="courseselection.php">Courses</a></li>
+				<li class="menu_mm"><a href="courseSelection.php">Courses</a></li>
 				<li class="menu_mm"><a href="#">Timetable</a></li>
 				<li class="menu_mm"><a href="#">News</a></li>
 				<li class="menu_mm"><a href="contact.php">Contact</a></li>
