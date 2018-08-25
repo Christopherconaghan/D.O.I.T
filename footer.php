@@ -88,7 +88,7 @@
 											<li><a href="about.php">About</a></li>
 											<li><a href="contact.php">Contact</a></li>
 											<li><a href="#">Features</a></li>
-											<li><a href="#">Courses</a></li>
+											<li><a href="#">Modules</a></li>
 											<li><a href="#">Events</a></li>
 											<li><a href="#">Gallery</a></li>
 											<li><a href="#">FAQs</a></li>

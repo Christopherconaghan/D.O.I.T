@@ -64,7 +64,7 @@
 								<ul class="main_nav">
 									<li class=""><a href="index.php">Home</a></li>
 									
-									<li><a href="#">Courses</a></li>
+									<li><a href="#">Modules</a></li>
 									<li><a href="#">Timetable</a></li>
 									<li><a href="#">News</a></li>
 									<li><a href="contact.php">Contact</a></li>

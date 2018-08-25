@@ -990,8 +990,8 @@ section{display:block;position:relative;box-sizing:border-box}
 .top_bar_contact_list li i,.top_bar_contact_list li>div,.login_button a{font-size:12px}
 .login_button{width:140px}
 .hamburger{display:inline-block;margin-left:33px}
-.course_col:not(:last-child){margin-bottom:40px}
-.course_info{height:auto;padding-top:30px;padding-bottom:30px}
+.course_col:not(:last-child){margin-bottom:0}
+.course_info{height:auto;padding-top:0;padding-bottom:0}
 .course_info_item:not(:last-child){margin-bottom:25px}
 .course_info_item:not(:last-child)::after{display:none}
 .review_rating_bars{padding-left:134px}
@@ -1138,7 +1138,7 @@ section{display:block;position:relative;box-sizing:border-box}
 .breadcrumbs ul li:not(:last-child)::after{display:inline-block;font-family:'FontAwesome';content:'\f105';margin-left:7px;margin-right:4px;color:#384158}
 .breadcrumbs ul li a{font-size:14px;font-weight:400;color:#384158;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-ms-transition:all 200ms ease;-o-transition:all 200ms ease;transition:all 200ms ease}
 .breadcrumbs ul li a:hover{color:#14bdee}
-.course{width:100%;padding-top:57px;padding-bottom:100px;background:#fff}
+.course{width:100%;padding-top:0;padding-bottom:0;background:#fff}
 .course_container{width:100%}
 .course_title{font-family:'Roboto Slab',serif;font-size:36px;font-weight:700;color:#384158}
 .course_info{width:100%;height:92px;margin-top:68px;background:#f2f4f5}
@@ -1777,7 +1777,7 @@ section{display:block;position:relative;box-sizing:border-box}
 .course{width:100%;border-radius:6px;background:#fff;box-shadow:0 1px 10px rgba(29,34,47,0.1)}
 .course_image{width:100%;border-top-left-radius:6px;border-top-right-radius:6px;overflow:hidden}
 .course_image img{max-width:100%}
-.course_body{padding-top:22px;padding-left:30px;padding-right:30px;padding-bottom:23px}
+.course_body{padding-top:30px;padding-left:30px;padding-right:30px;padding-bottom:30px}
 .course_title a{font-family:'Roboto Slab',serif;font-size:20px;color:#384158;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-ms-transition:all 200ms ease;-o-transition:all 200ms ease;transition:all 200ms ease}
 .course_title a:hover{color:#14bdee}
 .course_teacher{font-size:15px;font-weight:400;color:#384158;margin-top:6px}
