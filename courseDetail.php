@@ -33,6 +33,30 @@
 			</div>
 
 			<div class="row">
+				<div class="col-lg-6">
+					<div class="card">
+					<div class="card-header text-white bg-primary"><strong>Thomas Dowling - Head of Department</strong></div>
+					<div class="card-body">
+						<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GqqiPv23Ez0?rel=0" allowfullscreen></iframe>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="card">
+					<div class="card-header text-white bg-primary"><strong>What Do You Think Computer Programers Do?</strong></div>
+					<div class="card-body">
+						<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2i8lhKum3aI?rel=0" allowfullscreen></iframe>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div><br><br>
+
+			<div class="row">
 				<div class="col-lg-4">
 					<div class="card">
 					<div class="card-header text-white bg-primary"><strong>Minimum Entry Requirements</strong></div>
