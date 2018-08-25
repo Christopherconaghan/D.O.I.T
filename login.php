@@ -14,7 +14,7 @@
                 
                 
                 <form class="form-signin">
-                    <div>
+                    <div  style="height: 60% !important; width: 300px;  margin-left: auto; margin-right: auto;">
                         <div>
                             <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
                         </div>
