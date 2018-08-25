@@ -26,12 +26,12 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="modules.php">DevOps</a></h3>
+										<h3 class="course_title"><a href="courseDetail.php">DevOps</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 										<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>
@@ -41,12 +41,12 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
 									<div class="course_body">
-									<h3 class="course_title"><a href="modules.php">Applied Computing</a></h3>
+									<h3 class="course_title"><a href="courseDetail.php">Applied Computing</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 											<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>
@@ -56,12 +56,12 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
 									<div class="course_body">
-									<h3 class="course_title"><a href="modules.php">Cloud Technology</a></h3>
+									<h3 class="course_title"><a href="courseDetail.php">Cloud Technology</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 										<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>
@@ -71,12 +71,12 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_4.jpg" alt=""></div>
 									<div class="course_body">
-									<h3 class="course_title"><a href="modules.php">Games Development</a></h3>
+									<h3 class="course_title"><a href="courseDetail.php">Games Development</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 											<p>Our Bachelor of Science in Computing with Computer Games Development is designed to give you the skills and knowledge to embark on a successful career in the games industry - one of the most dynamic and cutting-edge industries in the world today.</p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>
@@ -86,13 +86,13 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_5.jpg" alt=""></div>
 									<div class="course_body">
-									<h3 class="course_title"><a href="modules.php">Security & Digital Forensics</a></h3>
+									<h3 class="course_title"><a href="courseDetail.php">Security & Digital Forensics</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 											<p>Our Bachelor of Science in Computing with Computer Security and Digital Forensics equips you with the skills, methods and techniques that apply in Computer Security and Digital Forensics. It’s an exciting field at the forefront of technology security.
 </p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>
@@ -102,12 +102,12 @@
 								<div class="course">
 									<div class="course_image"><img src="images/course_6.jpg" alt=""></div>
 									<div class="course_body">
-									<h3 class="course_title"><a href="modules.php">Mobile Technology</a></h3>
+									<h3 class="course_title"><a href="courseDetail.php">Mobile Technology</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
 										<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where...</p>
 										</div>
-										<div class="courses_button trans_200"><a href="modules.php">More Information</a></div>
+										<div class="courses_button trans_200"><a href="courseDetail.php">More Information</a></div>
 									</div>
 								</div>
 							</div>

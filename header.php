@@ -63,8 +63,8 @@
 									<li><a href="#">Timetable</a></li>
 									<li><a href="#">News</a></li>
 									<li><a href="contact.php">Contact</a></li>
-									<li><a href="registration.php">Register</a></li>
 									<li><a href="about.php">About</a></li>
+									<li><a href="registration.php">Register</a></li>
 								</ul>
 								<!-- Hamburger -->
 
