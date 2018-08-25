@@ -182,7 +182,7 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<div class="courses_button trans_200"><a href="#">view all modules</a></div>
+					<div class="courses_button trans_200"><a href="modules.php">view all modules</a></div>
 				</div>
 			</div>
 		</div>
