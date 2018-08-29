@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 25, 2018 at 09:57 AM
+-- Generation Time: Aug 29, 2018 at 11:51 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 5.6.24
 
@@ -37,25 +37,23 @@ CREATE TABLE `user` (
   `county/state` varchar(20) NOT NULL,
   `email` varchar(20) NOT NULL DEFAULT 'anyname@any.ie',
   `phone` int(20) NOT NULL,
-  `DOB` date NOT NULL DEFAULT '1911-02-24',
-  `gender` char(1) NOT NULL,
-  `location` varchar(30) NOT NULL
+  `DOB` date NOT NULL DEFAULT '1911-02-24'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`userID`, `passwd`, `Fname`, `Lname`, `add1`, `add2`, `town/city`, `county/state`, `email`, `phone`, `DOB`, `gender`, `location`) VALUES
-('L00123456', 'firstone', 'Sam', 'Brown', 'Canan', 'Templeogue', 'Dysart', 'Leitrim', 'sam@yahoo.ie', 83756431, '1996-05-08', 'M', 'Leitrim'),
-('L00234567', 'secondone', 'Jack', 'Jones', 'Lisansda', 'Balla', 'Letterkenny', 'Donegal', 'jack@gmail.com', 854579874, '0000-00-00', 'm', 'Letterkenny'),
-('L00345678', 'thirdone', 'Brian', 'Gavaghan', '43 Rosswid St.', NULL, 'Ballybofey', 'Donegal', 'brian@hotmail.ie', 86987456, '2011-02-24', 'M', 'Ballybofey'),
-('L00456789', 'fourthone', 'Nora', 'Meeke', 'Carramore', 'Lakeview', 'Sligo', 'Sligo', 'nora@yahoo.ie', 878765432, '1998-02-24', 'F', 'Sligo'),
-('L00567891', 'fifthone', 'Fidelma', 'Mannion', 'Stonetown', 'Rathbawn', 'Donloge', 'Donegal', 'fidelma@gmail.com', 873876543, '2000-08-27', 'F', 'Donloge'),
-('L00678912', 'sixthone', 'Helen', 'Gaberial', 'Oorid', 'Dunmore', 'Ballyshannon', 'Donegal', 'helen@gmail.com', 84765432, '1990-07-20', 'F', 'Ballyshannon'),
-('L00789123', 'seventhone', 'Margaret', 'Towey', '12 Street Lane', NULL, 'Tuam', 'Galway', 'marg@yahoo.ie', 89561239, '2011-02-24', 'F', 'Tuam'),
-('L00891234', 'eightone', 'Jas', 'Loftus', '5 Lows Lane', NULL, 'Tullaghan', 'Leitrim', 'jas@eir.ie', 98357951, '1988-12-01', 'M', 'Leitrim'),
-('L00912345', 'ninethone', 'Melvyn', 'Wickes', '98 Hyde Road', NULL, 'Buncrana', 'Donegal', 'melvyn@hotmail.ie', 85146328, '1992-06-14', 'M', 'Buncrana');
+INSERT INTO `user` (`userID`, `passwd`, `Fname`, `Lname`, `add1`, `add2`, `town/city`, `county/state`, `email`, `phone`, `DOB`) VALUES
+('L00123456', 'firstone', 'Sam', 'Brown', 'Canan', 'Templeogue', 'Dysart', 'Leitrim', 'sam@yahoo.ie', 83756431, '1996-05-08'),
+('L00234567', 'secondone', 'Jack', 'Jones', 'Lisansda', 'Balla', 'Letterkenny', 'Donegal', 'jack@gmail.com', 854579874, '0000-00-00'),
+('L00345678', 'thirdone', 'Brian', 'Gavaghan', '43 Rosswid St.', NULL, 'Ballybofey', 'Donegal', 'brian@hotmail.ie', 86987456, '2011-02-24'),
+('L00456789', 'fourthone', 'Nora', 'Meeke', 'Carramore', 'Lakeview', 'Sligo', 'Sligo', 'nora@yahoo.ie', 878765432, '1998-02-24'),
+('L00567891', 'fifthone', 'Fidelma', 'Mannion', 'Stonetown', 'Rathbawn', 'Donloge', 'Donegal', 'fidelma@gmail.com', 873876543, '2000-08-27'),
+('L00678912', 'sixthone', 'Helen', 'Gaberial', 'Oorid', 'Dunmore', 'Ballyshannon', 'Donegal', 'helen@gmail.com', 84765432, '1990-07-20'),
+('L00789123', 'seventhone', 'Margaret', 'Towey', '12 Street Lane', NULL, 'Tuam', 'Galway', 'marg@yahoo.ie', 89561239, '2011-02-24'),
+('L00891234', 'eightone', 'Jas', 'Loftus', '5 Lows Lane', NULL, 'Tullaghan', 'Leitrim', 'jas@eir.ie', 98357951, '1988-12-01'),
+('L00912345', 'ninethone', 'Melvyn', 'Wickes', '98 Hyde Road', NULL, 'Buncrana', 'Donegal', 'melvyn@hotmail.ie', 85146328, '1992-06-14');
 
 --
 -- Indexes for dumped tables
