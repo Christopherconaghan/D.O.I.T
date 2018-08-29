@@ -21,13 +21,13 @@
                         <div class="form-group">
                             <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                        <span class="input-group-text">ID</span>
+                        <span class="input-group-text">Username</span>
                         </div>
                         <input id="inpusername" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
                         <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                        <span class="input-group-text">key</span>
+                        <span class="input-group-text">Password</span>
                         </div>
                         <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
                         </div>
