@@ -22,4 +22,9 @@ table#time-table tr:nth-child(even) {
 table#time-table tr:nth-child(odd) {
    background-color: #fff;
 }
+
 table#time-table tr:hover {background-color: #ddd;}
+
+.lunch{
+ background-color:   rgba(120, 120, 120, 1)
+}
