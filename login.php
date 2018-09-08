@@ -12,14 +12,14 @@
     <?php
      $server="localhost";
      $dbuser="root";
-     $password="Database";
+     $password="";
      $link=mysqli_connect($server,$dbuser,$password);
      mysqli_select_db($link,"regdb");
 
      mysqli_close($link);
      ?><!--closes mysql-->
       <!--start php session-->
-<?php
+      <!-- <?php
  if(empty($_SESSION['errors']))
                 session_start();
 
@@ -34,7 +34,7 @@
                 echo "</div>";
             }
             unset($_SESSION['errors']);
-            ?><!--closes php-->
+            ?>closes php -->
                 
                 
   <form  action="login_check.php"  method="POST" class="form-signin">
