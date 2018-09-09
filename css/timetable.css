@@ -5,11 +5,11 @@ online course registeration section of a college website  */
 
 
 table#time-table {
-    width:100%;
+    width:100%!important;
 }
 table#time-table, table#time-table th, table#time-table td {
     border: 1px solid black;
-    border-collapse:collapse;
+    border-collapse:collapse!important;
 }
 table#time-table th, table#time-table td {
     padding: 10px;
@@ -26,5 +26,5 @@ table#time-table tr:nth-child(odd) {
 table#time-table tr:hover {background-color: #ddd;}
 
 .lunch{
- background-color:   rgba(120, 120, 120, 1)
+ background-color:   rgba(120, 120, 120, 1);
 }
