@@ -10,7 +10,6 @@
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Course Details</h2>
 						<div class="section_subtitle">
-							<h3><strong>This page will be the detail page for devops from the <a href="courseSelection.php">course list</a>.</strong></h3>
 							
 						</div>
 					</div>
@@ -22,11 +21,14 @@
 					<div class="card mb-3">
 						<img class="card-img-top" src="images/banner.jpg" alt="Card image cap">
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
+							<h5 class="card-title">Applied Computing</h5>
 							<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
                             
                             <p>In addition it will develop the students' knowledge in later years to give them a strong set of management skills required to work in and manage modern ICT organisations. All student will complete a major project which may be industry related.</p><br>
 							<button type="button" class="btn btn-primary float-right">Apply Now</button>
+							<!-- Button below coded in php to only be active if logged in needs tested... -->
+							<!-- <input type="button"  class="btn btn-primary float-right" <?php if ($userID == '0'){ ?> disabled <?php   } ?> onclick="addNameAndIDtoDB(<?php echo $row["course_id"]?>)" /> -->
+
 						</div>
 					</div><br><br>
 				</div>
