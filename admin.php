@@ -11,7 +11,7 @@
             <div class="col">
             <!-- Your content Start -->
            
-     <h2 class="section_title text-center">Login Area</h2>
+     <h2 class="section_title text-center">Admin Login Area</h2>
        
     <?php
      $server="localhost";
