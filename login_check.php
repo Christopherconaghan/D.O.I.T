@@ -4,7 +4,7 @@
 session_start();
 $server="localhost";
 $dbuser="root";
-$password="";
+$password="Database";
 $link=mysqli_connect($server,$dbuser,$password);
 mysqli_select_db($link,"regdb");
 
@@ -24,11 +24,11 @@ if(isset($_POST['userID']) and isset($_POST['passwd'])){
     //if the posted values are the same as the database then the session is created
     if($count==1){
         $_SESSION['userID'] = $username;
-        header("Location:courseSelection.php");
+        header("Location:courseDetail.php");
          exit;
     }
     else {
-        $_SESSION['errors'] = array("Your Username or Password are incorrect. Please re-enter");
+        $_SESSION['errors'] = array("Your Username or Password have errors! Please re-enter");
         header("Location:login.php");
     }
 

@@ -65,13 +65,15 @@
 									<li><a href="contact.php">Contact</a></li>
 									<li><a href="about.php">About</a></li>
 									<li><a href="registration.php">Register</a></li>
+									<li><a href="login.php">Log In</a></li>
+									<li><a href="logOut.php">Log Out</a></li>
 								</ul>
 								<!-- Hamburger -->
 
-								<div class="shopping_cart"><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i></a></div>
+							<!--	<div class="shopping_cart"><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i></a></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
-								</div>
+								</div>-->
 							</nav>
 
 						</div>

@@ -12,14 +12,14 @@
     <?php
      $server="localhost";
      $dbuser="root";
-     $password="";
+     $password="Database";
      $link=mysqli_connect($server,$dbuser,$password);
      mysqli_select_db($link,"regdb");
 
      mysqli_close($link);
      ?><!--closes mysql-->
       <!--start php session-->
-      <!-- <?php
+<?php
  if(empty($_SESSION['errors']))
                 session_start();
 
@@ -34,7 +34,7 @@
                 echo "</div>";
             }
             unset($_SESSION['errors']);
-            ?>closes php -->
+            ?><!--closes php-->
                 
                 
   <form  action="login_check.php"  method="POST" class="form-signin">
@@ -43,12 +43,16 @@
              <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
           </div>
          <div class="form-group text-body">
-         <!-- <div class="input-group mb-3">-->
-              <label for="userName">Username</label>
+         <div class="input-group-addon mb-3 ">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Username </span>
               <input id="inpusername" type="text" name="userID"  class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
          </div>
          <div class="form-group text-body">
-              <label for="password">Password</label>
+         <div class="input-group-addon mb-3 ">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Password </span>
+                        </div>
               <input id="inppassword" type="password"  name="passwd" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
          </div>
                             
