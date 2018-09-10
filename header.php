@@ -60,7 +60,7 @@
 									<li class=""><a href="index.php">Home</a></li>
 									
 									<li><a href="courseSelection.php">Courses</a></li>
-									<li><a href="#">Timetable</a></li>
+									<li><a href="time-table.php">Timetable</a></li>
 									<li><a href="#">News</a></li>
 									<li><a href="contact.php">Contact</a></li>
 									<li><a href="about.php">About</a></li>
@@ -99,7 +99,7 @@
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Home</a></li>
 				<li class="menu_mm"><a href="courseSelection.php">Courses</a></li>
-				<li class="menu_mm"><a href="#">Timetable</a></li>
+				<li class="menu_mm"><a href="time-table.php">Timetable</a></li>
 				<li class="menu_mm"><a href="#">News</a></li>
 				<li class="menu_mm"><a href="contact.php">Contact</a></li>
 				<li class="menu_mm"><a href="about.php">About</a></li>

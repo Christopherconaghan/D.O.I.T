@@ -123,6 +123,7 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a href="https://lyit.ie" target="_blank">DOiT</a></div>
 						<div class="ml-lg-auto cr_links">
 							<ul class="cr_list">
+								<li><a href="admin.php">Admin</a></li>
 								<li><a href="#">Copyright notification</a></li>
 								<li><a href="#">Terms of Use</a></li>
 								<li><a href="#">Privacy Policy</a></li>
