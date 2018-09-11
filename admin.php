@@ -11,35 +11,7 @@
             <div class="col">
             <!-- Your content Start -->
            
-     <h2 class="section_title text-center">Admin Login Area</h2>
-       
-    <?php
-     $server="localhost";
-     $dbuser="root";
-     $password="Database";
-     $link=mysqli_connect($server,$dbuser,$password);
-     mysqli_select_db($link,"regdb");
-
-     mysqli_close($link);
-     ?><!--closes mysql-->
-      <!--start php session-->
-<?php
- if(empty($_SESSION['errors']))
-                session_start();
-
-            if (isset($_SESSION['errors'])) {
-                echo "<div class='form-errors' 'mx-auto>";
-                foreach ($_SESSION['errors'] as $error) {
-                   
-                    echo "<p class='text-danger mx-auto text-center'>";
-                    echo $error;
-                    echo "</p>";
-                }
-                echo "</div>";
-            }
-            unset($_SESSION['errors']);
-            ?><!--closes php-->
-                
+     <h2 class="section_title text-center">Admin Login Area</h2>             
                 
   <form  action="login_check.php"  method="POST" class="form-signin">
           <div  style="height: 60% !important; width: 300px;  margin-left: auto; margin-right: auto;">
@@ -59,8 +31,7 @@
           <div class="form-group">
                <button class="btn btn-lg btn-success btn-block" type="submit" value="Login">Login</button>
          </div>    
-                 <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
-         </div> 
+                </div> 
       </div> 
                 </form>
 
