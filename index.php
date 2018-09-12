@@ -27,16 +27,16 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/lightbulb-connections.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
 								
-								<div class="col text-center">
+							<!--	<div class="col text-center">
 									<div class="home_slider_img home_slider_title"><img src="images/logo.png" alt=""></div>
 									<div class="home_slider_title">www.DevOps.it</div>
 									<div class="home_slider_subtitle">The Future Of Technology</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 					</div>
@@ -44,16 +44,16 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/work_together.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
 								
-								<div class="col text-center">
+							<!--	<div class="col text-center">
 									<div class="home_slider_img home_slider_title"><img src="images/logo.png" alt=""></div>
 									<div class="home_slider_title">www.DevOps.it</div>
 									<div class="home_slider_subtitle">The Future Of Technology</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 					</div>
