@@ -61,7 +61,7 @@
 									
 									<li><a href="courseSelection.php">Courses</a></li>
 									<li><a href="time-table.php">Timetable</a></li>
-									<li><a href="#">News</a></li>
+									<!--<li><a href="#">News</a></li>-->
 									<li><a href="contact.php">Contact</a></li>
 									<li><a href="about.php">About</a></li>
 									<li><a href="registration.php">Register</a></li>
