@@ -24,7 +24,7 @@ if(isset($_POST['userID']) and isset($_POST['passwd'])){
     //if the posted values are the same as the database then the session is created
     if($count==1){
         $_SESSION['userID'] = $username;
-        header("Location:courseDetail.php");
+        header("Location:courseSelection.php");
          exit;
     }
     else {
