@@ -19,39 +19,39 @@
                     <div class="form-group">
                     <div class="input-group-addon mb-3 ">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">First name  </span>
+                            <span class="input-group-text pr-3">First name  </span>
                         </div>
-                        <input id="inpName" type="text"  name="Fname" class="form-control ml-5" placeholder=" Name">
+                        <input id="inpName" type="text"  name="Fname" class="form-control ml-4" placeholder=" Name">
                         </div>
                         <div class="input-group-addon mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text pr-2">Surname  </span>
+                                <span class="input-group-text pr-4">Surname  </span>
                             </div>
-                            <input id="inpSurName" type="text" name="Lname" class="form-control ml-5" placeholder=" Surname">
+                            <input id="inpSurName" type="text" name="Lname" class="form-control ml-4" placeholder=" Surname">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Address 1</span>
+                                    <span class="input-group-text pr-3">Address 1</span>
                                 </div>
-                                <input type="text"  name="add1" class="form-control ml-5" required="required" id="inpAddress"  placeholder="Address">
+                                <input type="text"  name="add1" class="form-control ml-4" required="required" id="inpAddress"  placeholder="Address">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Address 2</span>
+                                    <span class="input-group-text pr-3">Address 2</span>
                                 </div>
-                                <input type="text" name="add2" class="form-control ml-5"  id="inpAddress"  placeholder="Address">
+                                <input type="text" name="add2" class="form-control ml-4"  id="inpAddress"  placeholder="Address">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Town/City</span>
+                                    <span class="input-group-text pr-3">Town/City</span>
                                 </div>
-                                <input type="text" name="town" class="form-control ml-5" required="required" id="inpAddress"  placeholder="Town">
+                                <input type="text" name="town" class="form-control ml-4" required="required" id="inpAddress"  placeholder="Town">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">County/State</span>
                                 </div>
-                                <input type="text" name="county" class="form-control ml-4" required="required" id="inpAddress"  placeholder="County">
+                                <input type="text" name="county" class="form-control ml-3" required="required" id="inpAddress"  placeholder="County">
                         </div> 
                        
                        <div class="input-group-addon mb-3">
@@ -62,7 +62,7 @@
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text pr-2">Mobile</span>
+                                    <span class="input-group-text pr-3">Mobile</span>
                                 </div>
                                 <input id="inpnumber" type="number" name="phone" class="form-control ml-5"  placeholder="Mobile">
                         </div>
@@ -76,21 +76,21 @@
                         </div>
 						 <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="custom-file">Upload Image</span>
+                                    <span class="custom-file ">Upload Image</span>
                                 </div>
-                                <input type="file" name="Image" class="form-control-file ml-4" id="imageID" placeholder="Choose file">
+                                <input type="file" name="Image" class="form-control-file ml-3" id="imageID" placeholder="Choose file">
                         </div>
                         <div class="input-group-addon mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text pr-2" id="pswd">Password</span>
+                            <span class="input-group-text pr-3" id="pswd">Password</span>
                         </div>
-                        <input id="inppassword" type="password"  name="passwd" class="form-control ml-5" placeholder="Password" aria-label="Password" aria-describedby="****">
+                        <input id="inppassword" type="password"  name="passwd" class="form-control ml-4" placeholder="Password" aria-label="Password" aria-describedby="****">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Repeat Password</span>
+                                    <span class="input-group-text pr-5">Repeat </span>
                                 </div>
-                                <input id="inppassword" type="password" class="form-control ml-2" placeholder="Repeat Password" oninput="check(this)">
+                                <input id="inppassword" type="password" class="form-control ml-3" placeholder="Repeat Password" oninput="check(this)">
                                     <script>
                                     function check(input) { 
                                         //input not valid
