@@ -21,69 +21,76 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">First name  </span>
                         </div>
-                        <input id="inpName" type="text" class="form-control" placeholder=" Name">
+                        <input id="inpName" type="text"  name="Fname" class="form-control ml-5" placeholder=" Name">
                         </div>
                         <div class="input-group-addon mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text">Surname  </span>
+                                <span class="input-group-text pr-2">Surname  </span>
                             </div>
-                            <input id="inpSurName" type="text" class="form-control" placeholder=" Surname">
+                            <input id="inpSurName" type="text" name="Lname" class="form-control ml-5" placeholder=" Surname">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Address 1</span>
                                 </div>
-                                <input type="text"  class="form-control" required="required" id="inpAddress"  placeholder="Address">
+                                <input type="text"  name="add1" class="form-control ml-5" required="required" id="inpAddress"  placeholder="Address">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Address 2</span>
                                 </div>
-                                <input type="text"  class="form-control" required="required" id="inpAddress"  placeholder="Address">
+                                <input type="text" name="add2" class="form-control ml-5"  id="inpAddress"  placeholder="Address">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Town/City</span>
                                 </div>
-                                <input type="text"  class="form-control" required="required" id="inpAddress"  placeholder="Town">
+                                <input type="text" name="town" class="form-control ml-5" required="required" id="inpAddress"  placeholder="Town">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">County</span>
+                                    <span class="input-group-text">County/State</span>
                                 </div>
-                                <input type="text"  class="form-control" required="required" id="inpAddress"  placeholder="Address">
+                                <input type="text" name="county" class="form-control ml-4" required="required" id="inpAddress"  placeholder="County">
                         </div> 
                        
+                       <div class="input-group-addon mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text  pr-4">Email</span>
+                                </div>
+                                <input id="inpEmail" type="email" name="email" class="form-control ml-5" required="required" placeholder="any@email.any">
+                        </div>
                         <div class="input-group-addon mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text pr-2">Mobile</span>
+                                </div>
+                                <input id="inpnumber" type="number" name="phone" class="form-control ml-5"  placeholder="Mobile">
+                        </div>
+                       
+                        
+						 <div class="input-group-addon mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Date of Birth</span>
                             </div>
-                            <input id="inpdate" type="date" class="form-control" required="required"  placeholder="Date">
+                            <input id="inpdate" type="d" name="DOB" class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
                         </div>
-                        <div class="input-group-addon mb-3">
+						 <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text">Mobile</span>
+                                    <span class="custom-file">Upload Image</span>
                                 </div>
-                                <input id="inpnumber" type="number" class="form-control"  placeholder="Mobile">
-                        </div>
-                       
-                        <div class="input-group-addon mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">Email</span>
-                                </div>
-                                <input id="inpEmail" type="email" class="form-control" required="required" placeholder="any@email.any">
+                                <input type="file" name="Image" class="form-control-file ml-4" id="imageID" placeholder="Choose file">
                         </div>
                         <div class="input-group-addon mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="pswd">Password</span>
+                            <span class="input-group-text pr-2" id="pswd">Password</span>
                         </div>
-                        <input id="inppassword" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
+                        <input id="inppassword" type="password"  name="passwd" class="form-control ml-5" placeholder="Password" aria-label="Password" aria-describedby="****">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">Repeat Password</span>
                                 </div>
-                                <input id="inppassword" type="password" class="form-control" placeholder="Repeat Password" oninput="check(this)">
+                                <input id="inppassword" type="password" class="form-control ml-2" placeholder="Repeat Password" oninput="check(this)">
                                     <script>
                                     function check(input) { 
                                         //input not valid
@@ -97,16 +104,12 @@
                                     }
                                 </script>
                         </div>
-                        <div class="input-group-addon mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="custom-file">Upload Image</span>
-                                </div>
-                                <input type="file" class="form-control-file" id="imageID" placeholder="Choose file">
-                        </div>
+                       
                        
                         <div class="row">
                     <div class="col">
-                        <div class="courses_button trans_200"><a href="courseSelection.php">Register</a></div>
+					<input type="submit" name="submit" value= "Register"class="courses_button trans_200" />
+                        <!--<div class="courses_button trans_200"><a href="courseSelection.php">Register</a></div>-->
                     </div>
                 </div>
                     </div>
