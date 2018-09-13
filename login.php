@@ -43,16 +43,12 @@
              <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
           </div>
          <div class="form-group text-body">
-         <div class="input-group-addon mb-3 ">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">Username </span>
+         <!-- <div class="input-group mb-3">-->
+              <label for="userName">Username</label>
               <input id="inpusername" type="text" name="userID"  class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
          </div>
          <div class="form-group text-body">
-         <div class="input-group-addon mb-3 ">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">Password </span>
-                        </div>
+              <label for="password">Password</label>
               <input id="inppassword" type="password"  name="passwd" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
          </div>
                             
