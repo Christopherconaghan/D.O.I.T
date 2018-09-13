@@ -51,8 +51,8 @@
          </div>
                             
           <div class="form-group">
-               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login">Login</button>
-               <button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Register</button>
+               <button class="btn btn-lg btn-success btn-block" type="submit" value="Signin">Sign in</button>
+               <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Register</button>
          </div>  
                <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
   
