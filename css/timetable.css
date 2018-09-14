@@ -11,10 +11,17 @@ table#time-table, table#time-table th, table#time-table td {
     border: 1px solid black;
     border-collapse:collapse!important;
 }
-table#time-table th, table#time-table td {
+table#time-table th {
     padding: 10px;
 	text-align: left;
-	font-size:15px;
+    font-size:20px;
+    color: black;
+}
+table#time-table td {
+    padding: 10px;
+	text-align: left;
+    font-size:15px;
+    color: black
 }
 table#time-table tr:nth-child(even) {
     background-color: #eee;
