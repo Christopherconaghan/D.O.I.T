@@ -22,9 +22,9 @@
 						<img class="card-img-top" src="images/banner.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">DevOps</h5>
-							<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
+							<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.</p>
                             
-                            <p>In addition it will develop the students' knowledge in later years to give them a strong set of management skills required to work in and manage modern ICT organisations. All student will complete a major project which may be industry related.</p><br>
+                            <p>DevOps is characterised by operations staff harnessing the same techniques as developers for their systems work. Topics the course covers include: DevOps Software Engineering, Project Management and Deployment Pipelines.</p><br>
 							<button type="button" class="btn btn-primary float-right">Apply Now</button>
 						</div>
 					</div><br><br>
@@ -60,15 +60,15 @@
 					<div class="card">
 					<div class="card-header text-white bg-primary"><strong>Minimum Entry Requirements</strong></div>
 					<div class="card-body">
-						<h5 class="card-title">Leaving Certificate</h5>
+						<h5 class="card-title">Level 8 Honours Degree in Computing</h5>
 						<p class="card-text">
-						Minimum Six O6/H7<br>
-						Maths O6/H7<br>
-						English or Irish O6/H7<br>
-						At least two H5</p>
+						- Level 8 Honours Degree in Computing, or equivalent, second class honours (2.2), or Higher Diploma in Computing (Conversion Course into Computing). <br>
+<br>
+-If you do not have an honours degree but have relevant experience you may also be eligible to apply via Recognition of Prior Learning (RPL). <br>
+</p>
 						<h5 class="card-title">Number of Places</h5>
 						<p class="card-text">
-						Twenty Four (24)</p>
+						Twenty Four (10)</p>
 					</div>
 					</div>
 				</div>

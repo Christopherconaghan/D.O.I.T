@@ -9,11 +9,11 @@
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Welcome To DevOps.it</h2>
 						<div class="section_subtitle">
-							<h3><strong>LYIT fosters one of the most progressive learning environments in Ireland.</strong></h3><br>
-							<p>Our reach is both local and international; attracting a diverse student body of more than 4,000 students from Ireland and 31 countries across the globe. They choose LYIT because of our unique ethos that harnesses academic excellence with career-focused practical experience. It’s an approach that positions our students for future success in line with their aspirations.</p>
+							<h3><strong>DOiT fosters one of the most progressive learning environments in Ireland.</strong></h3><br>
+							<p>Our reach is both local and international; attracting a diverse student body of more than 4,000 students from Ireland and 31 countries across the globe. They choose DOiT because of our unique ethos that harnesses academic excellence with career-focused practical experience. It’s an approach that positions our students for future success in line with their aspirations.</p>
 							<p>We also foster close relationships with the wider local community. Our engagement and partnerships with indigenous and international businesses leaders strengthens our student’s prospects in tandem with the prosperity of the region’s economy.</p>
 							<p>Our modern integrated campuses in Letterkenny and Killybegs aren’t just gateways to a bright future, but to one of the most breathtaking corners of the world - with Donegal named National Geographic’s ‘Coolest Place on the Planet 2017’.</p>
-							<p>There’s just so much to discover. So take your time, and stay a while to explore our website and see why LYIT is the place to be.</p>
+							<p>There’s just so much to discover. So take your time, and stay a while to explore our website and see why DOiT is the place to be.</p>
 						</div>
 					</div>
 				</div>
@@ -26,7 +26,7 @@
 						<div class="about_item_image"><img src="images/about_1.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Stories</a></div>
 						<div class="about_item_text">
-							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+							<!-- <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p> -->
 						</div>
 					</div>
 				</div>
@@ -37,7 +37,7 @@
 						<div class="about_item_image"><img src="images/about_2.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Mission</a></div>
 						<div class="about_item_text">
-							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+							<!-- <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p> -->
 						</div>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 						<div class="about_item_image"><img src="images/about_3.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Vision</a></div>
 						<div class="about_item_text">
-							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
+							<!-- <p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p> -->
 						</div>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Why Choose Us</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+						<!-- <div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div> -->
 					</div>
 				</div>
 			</div>
@@ -83,28 +83,28 @@
 								<div class="accordion_container">
 									<div class="accordion d-flex flex-row align-items-center"><div>Award for Best School 2017</div></div>
 									<div class="accordion_panel">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 									</div>
 								</div>
 
 								<div class="accordion_container">
 									<div class="accordion d-flex flex-row align-items-center active"><div>You’re learning from the best.</div></div>
 									<div class="accordion_panel">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 									</div>
 								</div>
 
 								<div class="accordion_container">
 									<div class="accordion d-flex flex-row align-items-center"><div>Our degrees are recognized worldwide.</div></div>
 									<div class="accordion_panel">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 									</div>
 								</div>
 
 								<div class="accordion_container">
 									<div class="accordion d-flex flex-row align-items-center"><div>We encourage our students to go global.</div></div>
 									<div class="accordion_panel">
-										<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 									</div>
 								</div>
 
@@ -136,7 +136,7 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<h2 class="section_title">The Best In The North-West</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+						<!-- <div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div> -->
 					</div>
 				</div>
 			</div>

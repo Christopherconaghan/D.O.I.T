@@ -57,7 +57,7 @@ section{display:block;position:relative;box-sizing:border-box}
 .header.scrolled .logo{width:40px;height:40px}
 .header.scrolled .logo_text{font-size:24px}
 .main_nav,.search_button,.shopping_cart{display:inline-block}
-.main_nav li{display:inline-block;position:relative}
+.main_nav li{display:inline-block;position:fixed}
 .main_nav li:not(:last-child){margin-right:44px}
 .main_nav li a{font-size:18px;font-weight:500;color:#384158;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-ms-transition:all 200ms ease;-o-transition:all 200ms ease;transition:all 200ms ease}
 .main_nav li a:hover,.main_nav li.active a{color:#14bdee}

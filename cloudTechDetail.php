@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="card mb-3">
-						<img class="card-img-top" src="images/banner.jpg" alt="Card image cap">
+						<img class="card-img-top" src="images/cloudComputing.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Cloud Technology</h5>
 							<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
@@ -120,11 +120,9 @@
 								<div class="course">
 									<div class="course_image"><img src="images/mod_1.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="courseSelection.php">Process Management (Sem 1)</a></h3>
+										<h3 class="course_title"><a href="courseSelection.php">Network Fundaentals (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -136,9 +134,7 @@
 									<div class="course_body">
 										<h3 class="course_title"><a href="courseSelection.php">Server Administration (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -148,11 +144,9 @@
 								<div class="course">
 									<div class="course_image"><img src="images/mod_3.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="courseSelection.php">Software Engineering (Sem 1)</a></h3>
+										<h3 class="course_title"><a href="courseSelection.php">Private Cloud (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -164,11 +158,9 @@
 								<div class="course">
 									<div class="course_image"><img src="images/mod_4.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="courseSelection.php">Scripting the Deployment Pipeline (Sem 2)</a></h3>
+										<h3 class="course_title"><a href="courseSelection.php">Network Services (Sem 2)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -178,31 +170,15 @@
 								<div class="course">
 									<div class="course_image"><img src="images/mod_5.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="courseSelection.php">DevOps Project Management (Sem 2)</a></h3>
+										<h3 class="course_title"><a href="courseSelection.php">API Programming (Sem 2)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
-										</div>
+										
 									</div>
 								</div>
 							</div>
 						</div>
 
-							<!-- Course -->
-						<div class="row courses_row">
-							<div class="col-lg-12 course_col">
-								<div class="course">
-									<div class="course_image"><img src="images/mod_6.jpg" alt=""></div>
-									<div class="course_body">
-										<h3 class="course_title"><a href="courseSelection.php">Final Dissertation</a></h3>
-										<div class="course_teacher">R. Lennon</div>
-										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 
 					</div>
 				</div>

@@ -47,7 +47,7 @@
 										<a href="index.php"><img src="images/logo.png" alt="" height="80px"></a>
 									</div>
 									<div class="footer_about_text">
-										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
+										<!-- <p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p> -->
 									</div>
 									<div class="footer_social">
 										<ul>

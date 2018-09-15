@@ -76,7 +76,7 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Welcome To DevOps.it</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+						<div class="section_subtitle"><p></p></div>
 					</div>
 				</div>
 			</div>
@@ -87,7 +87,7 @@
 					<div class="feature text-center trans_400">
 						<div class="feature_icon"><img src="images/icon_1.png" alt=""></div>
 						<h3 class="feature_title">The Experts</h3>
-						<div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+						<!-- <div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div> -->
 					</div>
 				</div>
 
@@ -96,7 +96,7 @@
 					<div class="feature text-center trans_400">
 						<div class="feature_icon"><img src="images/icon_2.png" alt=""></div>
 						<h3 class="feature_title">Book & Library</h3>
-						<div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+						<!-- <div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div> -->
 					</div>
 				</div>
 
@@ -105,7 +105,7 @@
 					<div class="feature text-center trans_400">
 						<div class="feature_icon"><img src="images/icon_3.png" alt=""></div>
 						<h3 class="feature_title">Best Courses</h3>
-						<div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+						<!-- <div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div> -->
 					</div>
 				</div>
 
@@ -114,7 +114,7 @@
 					<div class="feature text-center trans_400">
 						<div class="feature_icon"><img src="images/icon_4.png" alt=""></div>
 						<h3 class="feature_title">Award & Reward</h3>
-						<div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div>
+						<!-- <div class="feature_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p></div> -->
 					</div>
 				</div>
 
@@ -131,7 +131,7 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Popular Courses</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+						<!-- <div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div> -->
 					</div>
 				</div>
 			</div>
@@ -139,45 +139,50 @@
 				
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
-					<div class="course">
-						<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
-						<div class="course_body">
-							<h3 class="course_title"><a href="courseDetail.php">DevOps</a></h3>
-							<div class="course_teacher">R. Lennon</div>
-							<div class="course_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+								<div class="course">
+									<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
+									<div class="course_body">
+									<h3 class="course_title"><a href="cloudTechDetail.php">Cloud Technology</a></h3>
+										<div class="course_teacher">R. Lennon</div>
+										<div class="course_text">
+										<p>This Bachelor of Science (Ord) Cloud Technology programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
+										</div>
+										<div class="courses_button trans_200"><a href="cloudTechDetail.php">More Information</a></div>
+									</div>
+								</div>
+							</div>							
+							
+							<!-- Course -->
+							<div class="col-lg-4 course_col">
+								<div class="course">
+									<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
+									<div class="course_body">
+									<h3 class="course_title"><a href="appliedCompDetail.php">Applied Computing</a></h3>
+										<div class="course_teacher">R. Lennon</div>
+										<div class="course_text">
+											<p>This Bachelor of Science (HONS) programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
+										</div>
+										<div class="courses_button trans_200"><a href="appliedCompDetail.php">More Information</a></div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
 
-				<!-- Course -->
-				<div class="col-lg-4 course_col">
-					<div class="course">
-						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
-						<div class="course_body">
-						<h3 class="course_title"><a href="courseDetail.php">Applied Computing</a></h3>
-							<div class="course_teacher">R. Lennon</div>
-							<div class="course_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
-							</div>
-						</div>
-					</div>
-				</div>
 
-				<!-- Course -->
-				<div class="col-lg-4 course_col">
-					<div class="course">
-						<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
-						<div class="course_body">
-						<h3 class="course_title"><a href="courseDetail.php">Cloud Technology</a></h3>
-							<div class="course_teacher">R. Lennon</div>
-							<div class="course_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
+
+							<!-- Course -->
+							<div class="col-lg-4 course_col">
+								<div class="course">
+									<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
+									<div class="course_body">
+										<h3 class="course_title"><a href="devOpsDetail.php">DevOps</a></h3>
+										<div class="course_teacher">R. Lennon</div>
+										<div class="course_text">
+										<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.</p>
+										</div>
+										<div class="courses_button trans_200"><a href="devOpsDetail.php">More Information</a></div>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
 
 			</div>
 			<div class="row">
@@ -197,7 +202,7 @@
 				<div class="col-lg-6">
 					<div class="counter_content">
 						<h2 class="counter_title">Register Now</h2>
-						<div class="counter_text"><p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dumy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+						<div class="counter_text"><p>.</p></div>
 
 						<!-- Milestones -->
 
@@ -240,12 +245,6 @@
 							<div class="counter_form_title">Got A Question</div>
 							<input type="text" class="counter_input" placeholder="Your Name:" required="required">
 							<input type="tel" class="counter_input" placeholder="Phone:" required="required">
-							<select name="counter_select" id="counter_select" class="counter_input counter_options">
-								<option>Choose Subject</option>
-								<option>Subject</option>
-								<option>Subject</option>
-								<option>Subject</option>
-							</select>
 							<textarea class="counter_input counter_text_input" placeholder="Message:" required="required"></textarea>
 							<button type="submit" class="counter_form_button">submit now</button>
 						</form>
@@ -264,7 +263,7 @@
 				<div class="col">
 					<div class="section_title_container text-center">
 						<h2 class="section_title">Latest News</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
+						<!-- <div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div> -->
 					</div>
 				</div>
 			</div>
