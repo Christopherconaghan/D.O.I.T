@@ -14,9 +14,9 @@
     <?php
      $server="localhost";
      $dbuser="root";
-     $password="Database";
+     $password="";
      $link=mysqli_connect($server,$dbuser,$password);
-    // mysqli_select_db($link,"regdb");
+     mysqli_select_db($link,"admindb");
      mysqli_close($link);
      ?><!--closes mysql-->
       <!--start php session-->
@@ -52,14 +52,13 @@
          </div>
                             
           <div class="form-group">
-               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login">Login</button>
+               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login"><a href = "admin_index.php">Login</a></button>
          </div>    
                 </div> 
       </div> 
                 </form>
 
            
-
             <!-- Your content end -->
             </div>
         </div>
