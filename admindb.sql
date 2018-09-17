@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `test1`
+-- Database: `admin_test`
 --
 
 -- --------------------------------------------------------
@@ -31,17 +31,15 @@ SET time_zone = "+00:00";
 CREATE TABLE `adminlogin` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `password` varchar(255) NOT NULL
+ ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `adminlogin`
 --
 
-INSERT INTO `adminlogin` (`id`, `username`, `password`, `email`) VALUES
-(1, 'Admin1234', 'zaq12wsx', 'asdf@any.com'),
-(2, 'Admin9876', 'aq12wsde3', 'fdsa@any.com');
+INSERT INTO `adminlogin` (`id`, `username`, `password`) VALUES
+(1, 'Admin1234', 'zaq12wsx');
 
 --
 -- Indexes for dumped tables
