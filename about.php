@@ -7,13 +7,13 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h2 class="section_title">Welcome To DevOps.it</h2>
+						<h2 class="section_title">Welcome To DevOps IT</h2>
 						<div class="section_subtitle">
-							<h3><strong>DOiT fosters one of the most progressive learning environments in Ireland.</strong></h3><br>
-							<p>Our reach is both local and international; attracting a diverse student body of more than 4,000 students from Ireland and 31 countries across the globe. They choose DOiT because of our unique ethos that harnesses academic excellence with career-focused practical experience. It’s an approach that positions our students for future success in line with their aspirations.</p>
-							<p>We also foster close relationships with the wider local community. Our engagement and partnerships with indigenous and international businesses leaders strengthens our student’s prospects in tandem with the prosperity of the region’s economy.</p>
-							<p>Our modern integrated campuses in Letterkenny and Killybegs aren’t just gateways to a bright future, but to one of the most breathtaking corners of the world - with Donegal named National Geographic’s ‘Coolest Place on the Planet 2017’.</p>
-							<p>There’s just so much to discover. So take your time, and stay a while to explore our website and see why DOiT is the place to be.</p>
+							<h3><strong>DoIT offers one of the most progressive learning environments in Ireland.</strong></h3><br>
+							<p align="justify">Our reach is both local and international; attracting a diverse student body of more than 4,000 students from Ireland and 31 countries across the globe. They choose DOiT because of our unique ethos that harnesses academic excellence with career-focused practical experience. It’s an approach that positions our students for future success in line with their aspirations.</p>
+							<p align="justify">We also foster close relationships with the wider local community. Our engagement and partnerships with indigenous and international businesses leaders strengthens our student’s prospects in tandem with the prosperity of the region’s economy.</p>
+							<p align="justify">Our modern integrated campuses in Letterkenny and Killybegs aren’t just gateways to a bright future, but to one of the most breathtaking corners of the world - with Donegal named National Geographic’s ‘Coolest Place on the Planet 2017’.</p>
+							<p align="justify">There’s just so much to discover. So take your time, and stay a while to explore our website and see why DOiT is the place to be.</p>
 						</div>
 					</div>
 				</div>
