@@ -19,23 +19,7 @@
      mysqli_select_db($link,"admindb");
      mysqli_close($link);
      ?><!--closes mysql-->
-      <!--start php session-->
-<?php
- if(empty($_SESSION['errors']))
-                session_start();
-            if (isset($_SESSION['errors'])) {
-                echo "<div class='form-errors' 'mx-auto>";
-                foreach ($_SESSION['errors'] as $error) {
-                   
-                    echo "<p class='text-danger mx-auto text-center'>";
-                    echo $error;
-                    echo "</p>";
-                }
-                echo "</div>";
-            }
-            unset($_SESSION['errors']);
-            ?><!--closes php-->      
-                
+                     
   <form  action="login_check.php"  method="POST" class="form-signin">
           <div  style="height: 60% !important; width: 300px;  margin-left: auto; margin-right: auto;">
           <div>
