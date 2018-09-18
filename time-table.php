@@ -4,7 +4,7 @@
  <!--A DevOps group project-->
  <!--A webpage which will allow students to view course timetable-->
  <?php include "header.php";?>
- <link rel="stylesheet" type="text/css" media="screen" href="css/timetable.css" /
+ <link rel="stylesheet" type="text/css" media="screen" href="css/timetable.css">
 
     <!--opens page container-->
         
@@ -23,7 +23,7 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Cert in DevOps-
+                                <h4 class="card-title">MSC in DevOps-
                                     <labele id="course_name"> Time Table
                                         <labele>
                                 </h4>
