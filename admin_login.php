@@ -20,7 +20,7 @@
      mysqli_close($link);
      ?><!--closes mysql-->
                      
-  <form  action="login_check.php"  method="POST" class="form-signin">
+  <form  action="admin_check.php"  method="POST" class="form-signin">
           <div  style="height: 60% !important; width: 300px;  margin-left: auto; margin-right: auto;">
           <div>
              <label id="lblerror" style="display: none; color: red"> * Enter required details</label>
@@ -28,15 +28,15 @@
          <div class="form-group text-body">
          <!-- <div class="input-group mb-3">-->
               <label for="userName">Username</label>
-              <input id="inpusername" type="text" name="userID"  class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input id="inpusername" type="text" name="username"  class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
          </div>
          <div class="form-group text-body">
               <label for="password">Password</label>
-              <input id="inppassword" type="password"  name="passwd" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
+              <input id="inppassword" type="password"  name="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
          </div>
                             
           <div class="form-group">
-               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login"><a href = "admin_index.php">Login</a></button>
+               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login">Login</a></button>
          </div>    
                 </div> 
       </div> 
