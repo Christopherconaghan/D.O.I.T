@@ -13,7 +13,7 @@
     <?php
      $server="localhost";
      $dbuser="root";
-     $password="Database";
+     $password="";
      $link=mysqli_connect($server,$dbuser,$password);
      mysqli_select_db($link,"regdb");
      mysqli_close($link);
@@ -21,7 +21,6 @@
       <!--start php session-->
 <?php
  if(empty($_SESSION['errors']))
-                session_start();
             if (isset($_SESSION['errors'])) {
                 echo "<div class='form-errors' 'mx-auto>";
                 foreach ($_SESSION['errors'] as $error) {

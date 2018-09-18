@@ -1,12 +1,13 @@
 <!--A php file to check the credientials of the username and password-->
 <?php
-//Starting the session
 session_start();
 $server="localhost";
 $dbuser="root";
-$password="Database";
+$password="";
 $link=mysqli_connect($server,$dbuser,$password);
 mysqli_select_db($link,"regdb");
+
+//session needs started as no header included
 
 //if the form is submitted
 if(isset($_POST['userID']) and isset($_POST['passwd'])){

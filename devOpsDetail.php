@@ -123,7 +123,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">Process Management (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
 										</div>
 									</div>
 								</div>
@@ -137,7 +136,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">Server Administration (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
 										</div>
 									</div>
 								</div>
@@ -151,7 +149,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">Software Engineering (Sem 1)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
 										</div>
 									</div>
 								</div>
@@ -167,7 +164,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">Scripting the Deployment Pipeline (Sem 2)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
 										</div>
 									</div>
 								</div>
@@ -181,7 +177,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">DevOps Project Management (Sem 2)</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
 										</div>
 									</div>
 								</div>
@@ -197,7 +192,6 @@
 										<h3 class="course_title"><a href="courseSelection.php">Final Dissertation</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor. </p>
 										</div>
 									</div>
 								</div>

@@ -1,11 +1,13 @@
-<?php include "header.php";?>
+<?php 
+    include "header.php";
+?>
 
 <div class="news">
     <div class="container">
         <div class="row">
             <div class="col">
             <!-- Your content Start -->
-
+<!-- <?php echo $_SESSION['userID']?> -->
                 <div id="divregistraionform" class="container" style="height: 60% !important; width: 400px;">
                 <div class="section_title_container text-center">
                         <h2 class="section_title">Registration Area</h2>
