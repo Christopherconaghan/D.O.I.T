@@ -39,7 +39,7 @@ CREATE TABLE `adminlogin` (
 --
 
 INSERT INTO `adminlogin` (`id`, `username`, `password`) VALUES
-(1, 'Admin1234', 'zaq12wsx');
+(1, 'Admin1234', 'admin1234');
 
 --
 -- Indexes for dumped tables
