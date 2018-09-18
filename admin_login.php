@@ -14,28 +14,12 @@
     <?php
      $server="localhost";
      $dbuser="root";
-     $password="Database";
+     $password="";
      $link=mysqli_connect($server,$dbuser,$password);
-    // mysqli_select_db($link,"regdb");
+     mysqli_select_db($link,"admindb");
      mysqli_close($link);
      ?><!--closes mysql-->
-      <!--start php session-->
-<?php
- if(empty($_SESSION['errors']))
-                session_start();
-            if (isset($_SESSION['errors'])) {
-                echo "<div class='form-errors' 'mx-auto>";
-                foreach ($_SESSION['errors'] as $error) {
-                   
-                    echo "<p class='text-danger mx-auto text-center'>";
-                    echo $error;
-                    echo "</p>";
-                }
-                echo "</div>";
-            }
-            unset($_SESSION['errors']);
-            ?><!--closes php-->      
-                
+                     
   <form  action="login_check.php"  method="POST" class="form-signin">
           <div  style="height: 60% !important; width: 300px;  margin-left: auto; margin-right: auto;">
           <div>
@@ -52,14 +36,13 @@
          </div>
                             
           <div class="form-group">
-               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login">Login</button>
+               <button class="btn btn-lg btn-success btn-block" type="submit" value="Login"><a href = "admin_index.php">Login</a></button>
          </div>    
                 </div> 
       </div> 
                 </form>
 
            
-
             <!-- Your content end -->
             </div>
         </div>

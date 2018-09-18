@@ -27,7 +27,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/lightbulb-connections.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/slide2.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
@@ -44,7 +44,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/work_together.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/slide3.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
@@ -75,7 +75,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h2 class="section_title">Welcome To DevOps.it</h2>
+						<h2 class="section_title">Welcome To DevOps IT</h2>
 						<div class="section_subtitle"><p></p></div>
 					</div>
 				</div>
@@ -140,7 +140,7 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
+									<div class="course_image"><img src="images/cloudpic.jpg" alt=""></div>
 									<div class="course_body">
 									<h3 class="course_title"><a href="cloudTechDetail.php">Cloud Technology</a></h3>
 										<div class="course_teacher">R. Lennon</div>
@@ -155,12 +155,12 @@
 							<!-- Course -->
 							<div class="col-lg-4 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
+									<div class="course_image"><img src="images/applied.jpg" alt=""></div>
 									<div class="course_body">
 									<h3 class="course_title"><a href="appliedCompDetail.php">Applied Computing</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-											<p>This Bachelor of Science (HONS) programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
+											<p>This Bachelor of Science (HONS) programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p><br>
 										</div>
 										<div class="courses_button trans_200"><a href="appliedCompDetail.php">More Information</a></div>
 									</div>
@@ -172,12 +172,12 @@
 							<!-- Course -->
 							<div class="col-lg-4 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
+									<div class="course_image"><img src="images/devopspic.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="devOpsDetail.php">DevOps</a></h3>
 										<div class="course_teacher">R. Lennon</div>
 										<div class="course_text">
-										<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.</p>
+										<p>Our Master of Science in Computing in DevOps is a one year, full-time or two year, part-time programme. DevOps is the practice of operations and development engineers participating together in the entire service lifestyle, from design through the development process to production support.</p><br><br>
 										</div>
 										<div class="courses_button trans_200"><a href="devOpsDetail.php">More Information</a></div>
 									</div>

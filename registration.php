@@ -33,14 +33,16 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Address 1</span>
                                 </div>
-                                <input type="text"  name="add1" class="form-control ml-4" required="required" id="inpAddress"  placeholder="Address">
+                                <input type="text" name="street" class="form-control ml-4" required="required" id="inpStreet"  placeholder="Street">
                         </div> 
-                        <div class="input-group-addon mb-3">
+                        
+                      
+                       <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Address 2</span>
                                 </div>
-                                <input type="text" name="add2" class="form-control ml-4"  id="inpAddress"  placeholder="Address">
-                        </div> 
+                                <input id="inpAddress2" type="text" name="village" class="form-control ml-4"    placeholder="Address 2">
+                        </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Town/City</span>
@@ -51,7 +53,7 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">County/State</span>
                                 </div>
-                                <input type="text" name="county" class="form-control ml-3" required="required" id="inpAddress"  placeholder="County">
+                                <input type="text" name="county" class="form-control ml-3" required="required" id="inpCounty"  placeholder="County">
                         </div> 
                        
                        <div class="input-group-addon mb-3">
@@ -60,7 +62,7 @@
                                 </div>
                                 <input id="inpEmail" type="email" name="email" class="form-control ml-5" required="required" placeholder="any@email.any">
                         </div>
-                        <div class="input-group-addon mb-3">
+                       <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Mobile</span>
                                 </div>
@@ -72,15 +74,15 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Date of Birth</span>
                             </div>
-                            <input id="inpdate" type="d" name="DOB" class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
+                            <input id="inpdate" type="text" name="dob" class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
                         </div>
 						 <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="custom-file ">Upload Image</span>
                                 </div>
-                                <input type="file" name="Image" class="form-control-file ml-3" id="imageID" placeholder="Choose file">
+                                <input type="text" name="pic" class="form-control-file ml-3" id="imageID" placeholder="Choose file path">
                         </div>
-                        <div class="input-group-addon mb-3">
+                       <div class="input-group-addon mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text pr-3" id="pswd">Password</span>
                         </div>

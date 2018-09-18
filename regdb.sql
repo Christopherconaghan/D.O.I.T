@@ -31,38 +31,64 @@ INSERT INTO `coursedetails` (`courseID`, `courseName`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `studentdetails`
+-- Table structure for table `student`
 --
 
-CREATE TABLE `studentdetails` (
-  `studID` int(10) NOT NULL,
-  `Fname` varchar(30) NOT NULL,
-  `Lname` varchar(40) NOT NULL,
-  `add1` varchar(50) NOT NULL,
-  `add2` varchar(50) DEFAULT NULL,
-  `town/city` varchar(20) NOT NULL,
-  `county/state` varchar(20) NOT NULL,
-  `email` varchar(20) NOT NULL DEFAULT 'anyname@any.ie',
-  `phone` int(20) NOT NULL,
-  `DOB` date NOT NULL DEFAULT '1911-02-24',
-  `Image` varchar(50) NOT NULL,
-  `userID` varchar(15) NOT NULL
+CREATE TABLE `student` (
+  `ID` int(2) NOT NULL,
+  `Fname` varchar(15) NOT NULL,
+  `Lname` varchar(20) NOT NULL,
+  `street` varchar(40) NOT NULL,
+  `village` varchar(30) NOT NULL,
+  `town` varchar(30) NOT NULL,
+  `county` varchar(30) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `phone` int(15) NOT NULL,
+  `dob` date NOT NULL,
+  `pic` varchar(15) NOT NULL,
+  `userID` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `studentdetails`
+-- Dumping data for table `student`
 --
 
-INSERT INTO `studentdetails` (`studID`, `Fname`, `Lname`, `add1`, `add2`, `town/city`, `county/state`, `email`, `phone`, `DOB`, `Image`, `userID`) VALUES
-(1, 'Sam', 'Brown', 'Canan', 'Templeogue', 'Dysart', 'Leitrim', 'sam@yahoo.ie', 83756431, '1996-05-08', '', 'L00123456'),
-(2, 'Jack', 'Jones', 'Lisansda', 'Balla', 'Letterkenny', 'Donegal', 'jack@gmail.com', 854579874, '1990-04-13', '', 'L00234567'),
-(3, 'Brian', 'Gavaghan', '43 Rosswid St.', NULL, 'Ballybofey', 'Donegal', 'brian@hotmail.ie', 86987456, '2011-02-24', '', 'L00345678'),
-(4, 'Nora', 'Meeke', 'Carramore', 'Lakeview', 'Sligo', 'Sligo', 'nora@yahoo.ie', 878765432, '1998-02-24', '', 'L00456789'),
-(5, 'Fidelma', 'Mannion', 'Stonetown', 'Rathbawn', 'Donloge', 'Donegal', 'fidelma@gmail.com', 873876543, '2000-08-27', '', 'L00567891'),
-(6, 'Helen', 'Gaberial', 'Oorid', 'Dunmore', 'Ballyshannon', 'Donegal', 'helen@gmail.com', 84765432, '1990-07-20', '', 'L00678912'),
-(7, 'Margaret', 'Towey', '12 Street Lane', NULL, 'Tuam', 'Galway', 'marg@yahoo.ie', 89561239, '2011-02-24', '', 'L00789123'),
-(8, 'Jas', 'Loftus', '5 Lows Lane', NULL, 'Tullaghan', 'Leitrim', 'jas@eir.ie', 98357951, '1988-12-01', '', 'L00891234'),
-(9, 'Melvyn', 'Wickes', '98 Hyde Road', NULL, 'Buncrana', 'Donegal', 'melvyn@hotmail.ie', 85146328, '1992-06-14', '', 'L00912345');
+INSERT INTO `student` (`ID`, `Fname`, `Lname`, `street`, `village`, `town`, `county`, `email`, `phone`, `dob`, `pic`, `userID`) VALUES
+(3, '', 'fgsgfgs', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(4, 'fdea', 'fgsgfgs', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(5, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(6, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(7, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(8, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(9, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(10, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(11, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
+(30, 'kubjbj', 'ljolhi', 'Lone Lanw', '', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
+(31, 'Helen', 'lejodn', 'Port Rd', 'Woreong', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
+(32, 'Helen', 'lejodn', 'Port Rd', 'Woreong', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
+(33, 'dferfh', 'tcyjujh', 'South', '', 'Letterkenny', 'Donegal', '', 0, '0000-00-00', '', ''),
+(34, 'huifhauy', 'ygyuk', 'Mainn', '', 'Letterkenny', 'Donegal', 'eoanr@net.ie', 0, '0000-00-00', '', ''),
+(35, 'huifhauy', 'ygyuk', 'Mainn', '', 'Letterkenny', 'Donegal', 'eoanr@net.ie', 0, '0000-00-00', '', ''),
+(36, 'Jack', 'Rueeond', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '0000-00-00', '', ''),
+(37, 'Jack', 'Rueeond', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '0000-00-00', '', ''),
+(38, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'aed@iev.ie', 1648433348, '0000-00-00', '', ''),
+(39, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'aed@iev.ie', 1648433348, '0000-00-00', '', ''),
+(40, 'ddtyg', 'kjml;', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1990-05-24', '', ''),
+(41, 'ddtyg', 'kjml;', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1990-05-24', '', ''),
+(42, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'jdef@ner.ie', 56889632, '1992-10-21', 'images/team_2.j', ''),
+(43, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'jdef@ner.ie', 56889632, '1992-10-21', 'images/team_2.j', ''),
+(44, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(45, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(46, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(47, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(48, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(49, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(50, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
+(51, 'Eacen', 'Rueeond', 'Mainn', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1992-10-21', 'images/team_3.j', ''),
+(52, 'Sue', 'Brown', 'Lost', 'Cause', 'Letterkenny', 'Donegal', 'brown@net.ie', 2147483647, '1999-03-04', 'images/comment_', ''),
+(53, 'Sue', 'Jones', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 513646846, '1999-03-04', 'images/team_1.j', ''),
+(54, 'dferfh', 'tcyjujh', 'Now', 'Done', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1992-10-21', 'images/team_4.j', ''),
+(55, 'Test', 'ing', 'this', 'again', 'Letterkenny', 'Donegal', 'werb@ime.ie', 51348856, '1990-05-24', 'images/team_2.j', '');
 
 -- --------------------------------------------------------
 
@@ -71,25 +97,30 @@ INSERT INTO `studentdetails` (`studID`, `Fname`, `Lname`, `add1`, `add2`, `town/
 --
 
 CREATE TABLE `user` (
-  `userID` varchar(10) NOT NULL,
-  `passwd` varchar(10) NOT NULL,
-  `courseID` varchar(10) NOT NULL
+  `ID` int(8) NOT NULL,
+  `userID` varchar(10) NOT NULL DEFAULT 'L00',
+  `passwd` varchar(8) NOT NULL,
+  `courseID` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`userID`, `passwd`, `courseID`) VALUES
-('L00123456', 'firstone', 'dev1'),
-('L00234567', 'secondone', 'aply1'),
-('L00345678', 'thirdone', 'cloud1'),
-('L00456789', 'fourthone', 'dev3'),
-('L00567891', 'fifthone', 'cloud2'),
-('L00678912', 'sixthone', 'aply3'),
-('L00789123', 'seventhone', 'dev2'),
-('L00891234', 'eightone', 'cloud3'),
-('L00912345', 'ninethone', 'aply2');
+INSERT INTO `user` (`ID`, `userID`, `passwd`, `courseID`) VALUES
+(1, '1111', 'work', 'aply1'),
+(2, 'L002222', 'work', 'cloud1'),
+(3, 'L003333', 'work', 'dev3'),
+(4, 'L004444', 'work', 'aply3'),
+(5, 'L005555', 'work', 'aply3'),
+(6, 'L006666', 'work', 'cloud1'),
+(7, 'L007777', 'work', 'NULL'),
+(8, 'L008888', 'finally', 'NULL'),
+(9, 'L009999', 'next', 'NULL'),
+(1000, 'L001000100', 'got', 'NULL'),
+(100100, 'L001001001', 'done', 'NULL'),
+(100101, 'L00100101', 'see', 'NULL'),
+(100102, 'L00', '', 'dev1');
 
 --
 -- Indexes for dumped tables
@@ -100,40 +131,38 @@ INSERT INTO `user` (`userID`, `passwd`, `courseID`) VALUES
 --
 ALTER TABLE `coursedetails`
   ADD PRIMARY KEY (`courseID`),
-  ADD UNIQUE KEY `courseID` (`courseID`);
+  ADD KEY `courseID` (`courseID`) USING BTREE;
 
 --
--- Indexes for table `studentdetails`
+-- Indexes for table `student`
 --
-ALTER TABLE `studentdetails`
-  ADD PRIMARY KEY (`studID`),
-  ADD UNIQUE KEY `userID` (`userID`),
-  ADD KEY `userID_2` (`userID`),
-  ADD KEY `studID` (`studID`);
+ALTER TABLE `student`
+  ADD PRIMARY KEY (`ID`),
+  ADD UNIQUE KEY `ID` (`ID`),
+  ADD KEY `userID` (`userID`);
 
 --
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`userID`),
-  ADD UNIQUE KEY `courseID` (`courseID`);
+  ADD PRIMARY KEY (`ID`,`userID`),
+  ADD UNIQUE KEY `userID` (`userID`),
+  ADD KEY `courseID` (`courseID`);
 
 --
--- Constraints for dumped tables
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- Constraints for table `studentdetails`
+-- AUTO_INCREMENT for table `student`
 --
-ALTER TABLE `studentdetails`
-  ADD CONSTRAINT `studentdetails_ibfk_1` FOREIGN KEY (`userID`) REFERENCES `user` (`userID`) ON DELETE CASCADE ON UPDATE CASCADE;
-
+ALTER TABLE `student`
+  MODIFY `ID` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 --
--- Constraints for table `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`courseID`) REFERENCES `coursedetails` (`courseID`) ON DELETE CASCADE ON UPDATE CASCADE;
-
+  MODIFY `ID` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100103;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
