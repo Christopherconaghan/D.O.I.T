@@ -56,7 +56,7 @@
          </div>  
                <span class="psw"><a href="#" onclick="reset()">Forgot Password?</a></span>
                     <script>
-                        function mine(){
+                        function reset(){
                         alert("Email has been sent. Please create a new password.!!")
                          }
                     </script>
