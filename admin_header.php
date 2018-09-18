@@ -64,8 +64,7 @@
 								<ul class="main_nav">
 									<li class=""><a href="admin_index.php">Dashboard</a></li>
 									<li><a href="admin_index.php">Courses</a></li>
-									<li><a href="profiles.php">Students</a></li>
-									<li><a href="index.php">Website</a></li>
+									<li><a href="profiles.php">Students</a></li>							
 									<li><a href="logOut.php">Log Out</a></li>
 								</ul>
 								<!-- Hamburger -->
@@ -102,7 +101,6 @@
 				<li class="menu_mm"><a href="admin_index.php">Dashboard</a></li>
 				<li class="menu_mm"><a href="admin_index.php">Courses</a></li>
 				<li class="menu_mm"><a href="profiles.php">Students</a></li>
-				<li class="menu_mm"><a href="index.php">Website</a></li>
 				<li class="menu_mm"><a href="logOut.php">Logout</a></li>
 			</ul>
 		</nav>
