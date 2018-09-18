@@ -54,7 +54,12 @@
                <button class="btn btn-lg btn-success btn-block" type="submit" value="Signin">Sign in</button>
                <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Register</button>
          </div>  
-               <span class="psw"><a href="#" onclick="togglesigninandaccountresetsection()">Forgot Password?</a></span>
+               <span class="psw"><a href="#" onclick="reset()">Forgot Password?</a></span>
+                    <script>
+                        function mine(){
+                        alert("Email has been sent. Please create a new password.!!")
+                         }
+                    </script>
   
                 </div> 
       </div> 
