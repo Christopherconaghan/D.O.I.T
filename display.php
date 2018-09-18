@@ -8,7 +8,7 @@
 include_once("config.php");
 
 
-$sql = "SELECT * FROM studentdetails";
+$sql = "SELECT * FROM student";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -22,5 +22,4 @@ if ($result->num_rows > 0) {
 else {
     echo "0 results";
 }
-include_once("menu.php");
 ?>
