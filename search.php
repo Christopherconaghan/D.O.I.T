@@ -6,7 +6,7 @@
 
 <h1>Search by County</h1>
 <form action="search.php" method="post" enctype="multipart/form-data">
-    County:  <input type="text" name="county" value="" placeholder="" size="20">
+    County:  <input type="text" name="userID" value="" placeholder="" size="20">
     <input type="submit" value="Search" name="submit">
 </form>
 
@@ -14,11 +14,11 @@
 
 include_once("config.php");
 
-    if (isset($_POST['county']))
+    if (isset($_POST['userID']))
     {
-        $county = $_POST['county'];
+        $userID = $_POST['userID'];
         
-        $sql = "SELECT * FROM studentdetails WHERE 'county/state' ='$county';";
+        $sql = "SELECT * FROM studentdetails WHERE 'userID' ='$userID';";
         
         $result = $conn->query($sql);
         
