@@ -1,5 +1,10 @@
 <?php include "header.php";?>
-
+<script type="text/javascript">
+function alert()
+{
+	alert("You have now successfully registered to the Applied Computing course. We will be in contact with further details. ");
+}
+</script>
 	<!-- Courses -->
 
 	<div class="courses">
@@ -22,10 +27,14 @@
 						<img class="card-img-top" src="images/cloudComputing.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Cloud Technology</h5>
-							<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
+							<p>This Bachelor of Science (Ord) Cloud Technology programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
                             
                             <p>In addition it will develop the students' knowledge in later years to give them a strong set of management skills required to work in and manage modern ICT organisations. All student will complete a major project which may be industry related.</p><br>
-							<button type="button" class="btn btn-primary float-right">Apply Now</button>
+							
+<!-- //onclick="location.href='apply.php';" -->
+							<button type="button"  class="btn btn-primary float-right" > Apply Now</button>
+							<?php echo $_SESSION['userID'] ?>
+							
 						</div>
 					</div><br><br>
 				</div>

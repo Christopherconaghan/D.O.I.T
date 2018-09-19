@@ -31,7 +31,9 @@ $sql_insert1="INSERT INTO student (Fname,Lname,street,village,town,county,email,
     if(mysqli_query($link,$sql_insert1))
     {
        // echo"<p> Congratulations! You are now registered</p>";
-       echo"<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
+
+       //two querys are being run and  same message being displayed in both
+    //    echo"<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
     }
     else {
         echo "Sorry that did not go through, an error has occured  ";
@@ -39,8 +41,28 @@ $sql_insert1="INSERT INTO student (Fname,Lname,street,village,town,county,email,
 		}
    if(mysqli_query($link,$sql_insert2))
     {
+        // if(isset($_POST['userID'])){
+
+        //     //setting the username to their variables
+        //     $username=$_POST['userID'];
+        //   //querying the database
+        //     $query="SELECT * FROM user WHERE userID='$username'";
+        //     $err= "Connection Failed";
+        //     $result=mysqli_query($link,$query) or trigger_error(mysqli_error($err));
+        
+        //     $count=mysqli_num_rows($result);              
+        // }//closes if isset
+
+        // $username=$_POST['userID'];
+
 		//header("Location:index.php");
         echo"<h4> Congratulations! You have now created your account.<br> Take note of your password !</h4>";
+        echo "<h4> Your Username to log into the site is shown below: </h4>";
+
+        //echos back the user id that is created
+        echo $_SESSION['userID'];
+        echo"<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
+
         //echo "<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
     }
     else {

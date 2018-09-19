@@ -71,7 +71,7 @@
 									<li><a href="registration.php">Register</a></li>
 									<li><a href="login.php">Log In</a></li>
 									<li><a href="logOut.php">Log Out</a></li>
-									<li> <?php echo $_SESSION['userID']?> </li>
+									<li> <a href="#">Username: <?php echo $_SESSION['userID']?> </a>  </li>
 								</ul>
 								<!-- Hamburger -->
 
