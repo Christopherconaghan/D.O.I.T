@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Page Navigation</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Icon</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/index.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email: info.admissions@devops.it'])[1]/following::img[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email: info.admissions@devops.it'])[1]/following::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Have any questions?'])[1]/following::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::img[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Courses'])[1]/preceding::img[1]</option><option>//a/img</option><option>css=a &gt; img</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Home</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/index.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Home<datalist><option>link=Home</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email: info.admissions@devops.it'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Have any questions?'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Courses'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Timetable'])[1]/preceding::a[2]</option><option>//a[contains(text(),'Home')]</option><option>xpath=(//a[contains(@href, 'index.php')])[2]</option><option>//li/a</option><option>css=li &gt; a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Courses</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/index.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/index.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Courses<datalist><option>link=Courses</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email: info.admissions@devops.it'])[1]/following::a[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Timetable'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[2]</option><option>//a[contains(text(),'Courses')]</option><option>//a[contains(@href, 'courseSelection.php')]</option><option>//li[2]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Timetable</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/courseSelection.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/courseSelection.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Timetable<datalist><option>link=Timetable</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Courses'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[2]</option><option>//a[contains(text(),'Timetable')]</option><option>//a[contains(@href, 'time-table.php')]</option><option>//li[3]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Contact</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/contact.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/contact.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Contact<datalist><option>link=Contact</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Timetable'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Courses'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::a[2]</option><option>//a[contains(text(),'Contact')]</option><option>//a[contains(@href, 'contact.php')]</option><option>//li[4]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">About</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/contact.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/contact.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=About<datalist><option>link=About</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Timetable'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::a[2]</option><option>//a[contains(text(),'About')]</option><option>//a[contains(@href, 'about.php')]</option><option>//li[5]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">User Policy</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/about.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/about.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=User Policy<datalist><option>link=User Policy</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Admin Access'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='DOiT'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::a[1]</option><option>//a[contains(text(),'User Policy')]</option><option>//a[contains(@href, 'userPolicy.php')]</option><option>//div[2]/div/div/div[2]/ul/li[2]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Privacy Policy</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost/xampp/doit/D.O.I.T-master/userPolicy.php<datalist><option>http://localhost/xampp/doit/D.O.I.T-master/userPolicy.php</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Privacy Policy<datalist><option>link=Privacy Policy</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='User Policy'])[2]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Admin Access'])[1]/following::a[2]</option><option>//a[contains(text(),'Privacy Policy')]</option><option>//a[contains(@href, 'privacyPolicy.php')]</option><option>//div[2]/div/div/div[2]/ul/li[3]/a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
