@@ -59,7 +59,7 @@
 							<div>
 								<a href="index.php"><img src="images/logo.png" alt="" height="80px"></a>
 							</div>
-							<nav class="main_nav_contaner ml-auto">
+							<nav class="main_nav_contaner ml-5">
 								<ul class="main_nav">
 									<li class=""><a href="index.php">Home</a></li>
 									
@@ -71,16 +71,17 @@
 									<li><a href="registration.php">Register</a></li>
 									<li><a href="login.php">Log In</a></li>
 									<li><a href="logOut.php">Log Out</a></li>
-								<?php if(isset($_SESSION['userID']) == TRUE) {
-									echo "<li><a href='#'>Username: ";
-									echo $_SESSION['userID'];
-									echo "</a></li>";
-							}
-								
-								else{
-								 echo "";
-								}
-								?>
+									<?php 
+										if(isset($_SESSION['userID']) == TRUE) 
+										{
+											echo "<li><a href='#'>Username: ";
+											echo $_SESSION['userID'];
+											echo "</a></li>";
+										}
+										else{
+											echo "";
+										}
+									?>
 
 									<!-- <li> <a href="#">Username: <?php echo $_SESSION['userID']?> </a>  </li> -->
 								
