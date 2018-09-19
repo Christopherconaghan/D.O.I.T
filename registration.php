@@ -82,7 +82,7 @@
                                 <div class="input-group-prepend">
                                     <span class="custom-file ">Upload Image</span>
                                 </div>
-                                <input type="text" name="pic" class="form-control-file ml-3" id="imageID" placeholder="Choose file path">
+                                <input type="file" name="pic" required class="form-control-file ml-3" id="imageID" placeholder="Choose file path">
                         </div>
                        <div class="input-group-addon mb-3">
                         <div class="input-group-prepend">
