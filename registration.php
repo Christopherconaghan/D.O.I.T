@@ -23,19 +23,19 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text pr-3">First name  </span>
                         </div>
-                        <input id="inpName" type="text"  name="Fname" class="form-control ml-4" placeholder=" Name">
+                        <input id="inpName" type="text"  name="Fname" required class="form-control ml-4" placeholder="Name">
                         </div>
                         <div class="input-group-addon mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text pr-4">Surname  </span>
                             </div>
-                            <input id="inpSurName" type="text" name="Lname" class="form-control ml-4" placeholder=" Surname">
+                            <input id="inpSurName" type="text" name="Lname" required class="form-control ml-4" placeholder="Surname">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Address 1</span>
                                 </div>
-                                <input type="text" name="street" class="form-control ml-4" required="required" id="inpStreet"  placeholder="Street">
+                                <input type="text" name="street" required class="form-control ml-4" required="required" id="inpStreet"  placeholder="Street">
                         </div> 
                         
                       
@@ -43,32 +43,32 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Address 2</span>
                                 </div>
-                                <input id="inpAddress2" type="text" name="village" class="form-control ml-4"    placeholder="Address 2">
+                                <input id="inpAddress2" type="text" name="village" required class="form-control ml-4"    placeholder="Address 2">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Town/City</span>
                                 </div>
-                                <input type="text" name="town" class="form-control ml-4" required="required" id="inpAddress"  placeholder="Town">
+                                <input type="text" name="town" required class="form-control ml-4" required="required" id="inpAddress"  placeholder="Town">
                         </div> 
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">County/State</span>
                                 </div>
-                                <input type="text" name="county" class="form-control ml-3" required="required" id="inpCounty"  placeholder="County">
+                                <input type="text" name="county" required class="form-control ml-3" required="required" id="inpCounty"  placeholder="County">
                         </div> 
                        
                        <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text  pr-4">Email</span>
                                 </div>
-                                <input id="inpEmail" type="email" name="email" class="form-control ml-5" required="required" placeholder="any@email.any">
+                                <input id="inpEmail" type="email" name="email" required class="form-control ml-5" required="required" placeholder="any@email.any">
                         </div>
                        <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-3">Mobile</span>
                                 </div>
-                                <input id="inpnumber" type="number" name="phone" class="form-control ml-5"  placeholder="Mobile">
+                                <input id="inpnumber" type="number" name="phone" required class="form-control ml-5"  placeholder="Mobile">
                         </div>
                        
                         
@@ -76,7 +76,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Date of Birth</span>
                             </div>
-                            <input id="inpdate" type="text" name="dob" class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
+                            <input id="inpdate" type="text" name="dob" required class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
                         </div>
 						 <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
@@ -88,13 +88,13 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text pr-3" id="pswd">Password</span>
                         </div>
-                        <input id="inppassword" type="password"  name="passwd" class="form-control ml-4" placeholder="Password" aria-label="Password" aria-describedby="****">
+                        <input id="inppassword" type="password"  name="passwd" required class="form-control ml-4" placeholder="Password" aria-label="Password" aria-describedby="****">
                         </div>
                         <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text pr-5">Repeat </span>
                                 </div>
-                                <input id="inppassword" type="password" class="form-control ml-3" placeholder="Repeat Password" oninput="check(this)">
+                                <input id="inppassword" type="password" required class="form-control ml-3" placeholder="Repeat Password" oninput="check(this)">
                                     <script>
                                     function check(input) { 
                                         //input not valid
