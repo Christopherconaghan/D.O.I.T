@@ -76,7 +76,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">Date of Birth</span>
                             </div>
-                            <input id="inpdate" type="text" name="dob" required class="form-control ml-4 " required="required"  placeholder="yyyy/mm/dd">
+                            <input id="inpdate" type="date" name="dob" required class="form-control ml-4 " placeholder="dd/mm/yyyy">
                         </div>
 						 <div class="input-group-addon mb-3">
                                 <div class="input-group-prepend">
