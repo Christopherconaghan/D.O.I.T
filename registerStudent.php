@@ -60,7 +60,8 @@ $sql_insert1="INSERT INTO student (Fname,Lname,street,village,town,county,email,
         echo "<h4> Your Username to log into the site is shown below: </h4>";
 
         //echos back the user id that is created
-        echo $_SESSION['userID'];
+
+
         echo"<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
 
         //echo "<a href='index.php' class='btn btn-sm btn-success btn-block'>Main Page</a>";
