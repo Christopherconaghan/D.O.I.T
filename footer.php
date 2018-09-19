@@ -11,8 +11,7 @@
 
 						<!-- Newsletter Content -->
 						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">blackboard news & alerts</div>
-							<div class="newsletter_subtitle">Subcribe to lastest blackboard alerts</div>
+							<div class="newsletter_title">blackboard news & alerts</div>		
 						</div>
 
 						<!-- Newsletter Form -->
