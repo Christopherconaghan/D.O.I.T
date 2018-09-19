@@ -71,8 +71,19 @@
 									<li><a href="registration.php">Register</a></li>
 									<li><a href="login.php">Log In</a></li>
 									<li><a href="logOut.php">Log Out</a></li>
-									
-									<li> <a href="#">Username: <?php echo $_SESSION['userID']?> </a>  </li>
+								<?php if(isset($_SESSION['userID']) == TRUE) {
+									echo "<li><a href='#'>Username: ";
+									echo $_SESSION['userID'];
+									echo "</a></li>";
+							}
+								
+								else{
+								 echo "";
+								}
+								?>
+
+									<!-- <li> <a href="#">Username: <?php echo $_SESSION['userID']?> </a>  </li> -->
+								
 								</ul>
 								<!-- Hamburger -->
 
