@@ -15,11 +15,12 @@ if ($result->num_rows > 0) {
     echo '<table>';
     while($row = $result->fetch_assoc()) {
         $Fname = $row["Fname"];
-        echo '<tr><td font size:160%><a href="profiles.php?first='.$Fname.'">'.$Fname.'</a><br /></td></tr>';
+        echo '<tr><td style = "font-size:130%"><a href="profiles.php?first='.$Fname.'">'.$Fname.'  '.$row["Lname"].'</a><br /></td></tr>';
     }
     echo '</table>';
 }
 else {
     echo "0 results";
 }
+include_once("menu.php");
 ?>
