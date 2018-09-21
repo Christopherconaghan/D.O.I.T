@@ -24,7 +24,7 @@
 				<h4 style="color:blue;margin: 5%">Course Quick Link</h4>
 				<div class="card">
 					<div class="card-body">
-					<h5 class="card-title">Courses Quicklist</h5>
+					<h5 class="card-title" style="color:black;" >Courses Quicklist</h5>
 					<table class="table table-hover table-bordered">
 						<thead class="thead-light">
 							<tr>
@@ -36,7 +36,7 @@
 						<tbody>
 							
 							<tr>
-								<th scope="row">Cloud Technology</th>
+								<th scope="row" style="color:black !important;">Cloud Technology</th>
 								<td><button type="button" onclick="location.href='../course.php';" class="btn btn-success">View</button></td>
 								<td><button type="button" onclick="location.href='courseedit.php';" class="btn btn-danger">Edit</button></td>
 							</tr>
