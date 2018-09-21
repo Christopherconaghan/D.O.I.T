@@ -20,20 +20,6 @@
 							<div class="newsletter_subtitle">Subcribe to lastest blackboard alerts</div>
 						</div>
 
-						<!-- Newsletter Form -->
-						<div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<!-- Footer -->
 
 	<footer class="footer">
@@ -91,12 +77,10 @@
 										<ul>
 											<li><a href="index.php">Home</a></li>
 											<li><a href="about.php">About</a></li>
-											<li><a href="contact.php">Contact</a></li>
-											<li><a href="#">Features</a></li>
+											<li><a href="contact.php">Contact</a></li>											<li><a href="#">Features</a></li>
 											<li><a href="courseSelection.php">Courses</a></li>
 											<li><a href="#">Timetable</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">FAQs</a></li>
+											
 										</ul>
 									</div>
 								</div>
