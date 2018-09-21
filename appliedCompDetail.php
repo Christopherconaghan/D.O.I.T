@@ -25,7 +25,22 @@
 							<p>This level 8 programme is designed to give the graduate experience with a wide range of fundamental computing skills from computer programming where you will learn to give the computer instructions to tell it what you want it to do to computer architecture where you will learn how to install and maintain computers.</p>
                             
                             <p>In addition it will develop the students' knowledge in later years to give them a strong set of management skills required to work in and manage modern ICT organisations. All student will complete a major project which may be industry related.</p><br>
-							<button type="button" class="btn btn-primary float-right">Apply Now</button>
+							<button type="button" onclick="myFunction()" class="btn btn-primary float-right"><a style="color:white" href="index.php">Apply Now</a></button>
+							<p id="demo">
+									    
+							</p>
+								<script>
+								function myFunction() {
+									var txt;
+									if (confirm("Confirm to Apply!")) {
+										txt = "Applied Successfully, Thank You!";
+									} else {
+										txt = "Thank You for Visiting!";
+									}
+									document.getElementById("demo").innerHTML = txt;
+								}
+								
+								</script>
 							<!-- Button below coded in php to only be active if logged in needs tested... -->
 							<!-- <input type="button"  class="btn btn-primary float-right" <?php if ($userID == '0'){ ?> disabled <?php   } ?> onclick="addNameAndIDtoDB(<?php echo $row["course_id"]?>)" /> -->
 
