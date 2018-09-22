@@ -1,7 +1,7 @@
- <!--Author@ Nimmy Augustin-->
+  <!--Author@ Nimmy Augustin and Renuka Allbanur-->
  <!--Date@ 15/09/18-->
  <!--A DevOps group project-->
  <!--php file used by studentdisplay.php -->
 
 _______________________________________________
-<a href="profiles.php" style='font-weight:bold'>Profiles</a>
+<button class="btn btn-primary float-left"><a style="color:white" href="profiles.php" style='font-weight:bold'>All Profiles</a></button>
