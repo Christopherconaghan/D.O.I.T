@@ -88,10 +88,9 @@
 										<ul>
 											<li><a href="index.php">Home</a></li>
 											<li><a href="about.php">About</a></li>
-											<li><a href="contact.php">Contact</a></li>											<li><a href="#">Features</a></li>
+											<li><a href="contact.php">Contact</a></li>											/li>
 											<li><a href="courseSelection.php">Courses</a></li>
 											<li><a href="#">Timetable</a></li>
-											
 										</ul>
 									</div>
 								</div>
