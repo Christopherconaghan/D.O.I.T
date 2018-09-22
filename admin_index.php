@@ -41,12 +41,12 @@
 								<td><button type="button" onclick="location.href='#';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
-								<th scope="row">Applied Computing</th>
+								<th scope="row" style="color:black !important;">Applied Computing</th>
 								<td><button type="button" onclick="location.href='#';" class="btn btn-success">View</button></td>
 								<td><button type="button" onclick="location.href='#';" class="btn btn-danger">Edit</button></td>
 							</tr>
 							<tr>
-								<th scope="row">DevOps</th>
+								<th scope="row" style="color:black !important;">DevOps</th>
 								<td><button type="button" onclick="location.href='#';" class="btn btn-success">View</button></td>
 								<td><button type="button" onclick="location.href='#';" class="btn btn-danger">Edit</button></td>
 							</tr>
