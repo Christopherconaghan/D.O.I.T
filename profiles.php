@@ -34,10 +34,10 @@
 				echo '</table>';
 				echo '</div>
 				  </div>';
-				echo '<a href="admin_index.php">Admin Home</a> | <a href="profiles.php">All Profiles</a>';
+				echo '<button class="btn btn-primary float-left"><a style="color:white" href="admin_index.php">Admin Home</a></button>    <button class="btn btn-primary float-right"><a style="color:white" href="profiles.php">All Profiles</a></button>';
 				echo '</div>';
 				echo '<div class="col-sm-4 col-md-4"></div>';
-				
+							
             }
             
         }
@@ -77,7 +77,7 @@
             echo '</table>';
 			echo '</div>
 				  </div>';
-			echo '<a href="admin_index.php">Admin Home</a>';	  
+			echo '<button class="btn btn-primary float-left"><a style="color:white" href="admin_index.php">Admin Home</a><button>';	  
 			echo '</div>';
 			echo '<div class="col-sm-3 col-md-3"></div>';
         }
