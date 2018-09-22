@@ -5,7 +5,7 @@
  
 <!-- Framwork template Footer Start -->
 
-	<!-- Newsletter -->
+		<!-- Newsletter -->
 
 	<div class="newsletter">
 		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
@@ -16,10 +16,21 @@
 
 						<!-- Newsletter Content -->
 						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">blackboard news & alerts</div>
-							<div class="newsletter_subtitle">Subcribe to lastest blackboard alerts</div>
+									
 						</div>
 
+						<!-- Newsletter Form -->
+						<div class="newsletter_form_container ml-lg-auto">
+							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
+								
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Footer -->
 
 	<footer class="footer">
