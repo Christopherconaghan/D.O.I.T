@@ -1,4 +1,4 @@
- <!--Author@ Nimmy Augustin-->
+ <!--Author@ Nimmy Augustin & Renuka Allbanur-->
  <!--Date@ 15/09/18-->
  <!--A DevOps group project-->
  <!--file used by studentdisplay.php -->
