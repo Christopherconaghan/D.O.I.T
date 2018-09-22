@@ -42,16 +42,16 @@
          <div class="form-group text-body">
          <!-- <div class="input-group mb-3">-->
               <label for="userName">Username</label>
-              <input id="inpusername" type="text" name="userID"  required class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              <input id="inpusername" type="text" name="userID"  class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
          </div>
          <div class="form-group text-body">
               <label for="password">Password</label>
-              <input id="inppassword" type="password"  name="passwd" required class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
+              <input id="inppassword" type="password"  name="passwd" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="****">
          </div>
                             
           <div class="form-group">
                <button class="btn btn-lg btn-success btn-block" type="submit" value="Signin">Sign in</button>
-               <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Register</button>
+               <input  class="btn btn-lg btn-primary btn-block" type="button" onclick="location.href='registration.php'" value="Register"/>
          </div>  
                <span class="psw"><a href="#" onclick="reset()">Forgot Password?</a></span>
                     <script>
