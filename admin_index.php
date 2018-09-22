@@ -15,8 +15,7 @@
 				<div class="card">
 				<div class="card-body">
                 
-        		<?php include_once("display.php"); 
-				echo '<a href="profiles.php">All Profiles</a>';?>
+        		<?php include_once("display.php");?>
         		</div>
 				</div>
 			</div>
