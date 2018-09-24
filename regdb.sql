@@ -99,7 +99,7 @@ INSERT INTO `student` (`ID`, `Fname`, `Lname`, `street`, `village`, `town`, `cou
 CREATE TABLE `user` (
   `ID` int(8) NOT NULL,
   `userID` varchar(10) NOT NULL DEFAULT 'L00',
-  `passwd` varchar(8) NOT NULL,
+  `passwd` varchar(255) NOT NULL,
   `courseID` varchar(10) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
