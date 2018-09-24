@@ -62,9 +62,9 @@ $sql_insert1="INSERT INTO student (Fname,Lname,street,village,town,county,email,
         // $username=$_POST['userID'];
 
 		//header("Location:index.php");
-        echo"<h4> Congratulations! You have now created your account.<br> Take note of your password !</h4>";
-        echo "<h4> Your Username to log into the site is shown below: </h4>";
-
+        echo"<h4> <br> <br> <br> &nbsp;&nbsp;&nbsp; Congratulations! You have now created your account.<br> <br> &nbsp;&nbsp;&nbsp; Take note of your password !</h4>";
+        echo "<h4> <br> &nbsp;&nbsp;&nbsp; Please check your email for your user name. </h4>";
+		echo "<h4> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> </h4>";
         //echos back the user id that is created
 
 
