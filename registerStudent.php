@@ -23,10 +23,16 @@
 $sql_insert1="INSERT INTO student (Fname,Lname,street,village,town,county,email,phone,dob,pic)
  VALUES('$Fname','$Lname','$street','$village','$town','$county','$email','$phone','$dob','$pic')";
 
-   $sql_insert2= "INSERT INTO user (passwd) VALUES('$passwd')";
+   //$sql_insert2= "INSERT INTO user (passwd) VALUES('$passwd')";
 
    $sql="UPDATE user SET userID= concat(userID,ID)";
 
+   
+   $passwd = mysqli_real_escape_string($link, $_POST["passwd"]); 
+   $passwd = password_hash($passwd, PASSWORD_DEFAULT);  
+   //$query = "INSERT INTO user(userID, passwd) VALUES('$userID', '$passwd')";  
+   
+   $sql_insert2= "INSERT INTO user (passwd) VALUES('$passwd')";
 
     if(mysqli_query($link,$sql_insert1))
     {
