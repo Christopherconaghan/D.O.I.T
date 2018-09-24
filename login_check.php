@@ -1,37 +1,46 @@
-<!--A php file to check the credientials of the username and password-->
+<!--A php file to check the credentials of the userID and password-->
 <?php
-session_start();
+//session_start();
 $server="localhost";
-$dbuser="root";
-$password="";
-$link=mysqli_connect($server,$dbuser,$password);
-mysqli_select_db($link,"regdb");
+ $dbuser="root";
+ $password="";
+ $link=mysqli_connect($server,$dbuser,$password);
+ mysqli_select_db($link,"regdb");
 
 //session needs started as no header included
 
 //if the form is submitted
 if(isset($_POST['userID']) and isset($_POST['passwd'])){
 
-    //setting the username and password to their variables
-    $username=$_POST['userID'];
-    $password=$_POST['passwd'];
-  //querying the database
-    $query="SELECT * FROM user WHERE userID='$username' AND passwd='$password'";
-    $err= "Connection Failed";
-    $result=mysqli_query($link,$query) or trigger_error(mysqli_error($err));
 
-    $count=mysqli_num_rows($result);
-    
-    //if the posted values are the same as the database then the session is created
-    if($count==1){
-        $_SESSION['userID'] = $username;
-        header("Location:courseSelection.php");
-         exit;
-    }
-    else {
-        $_SESSION['errors'] = array("Your Username or Password have errors! Please re-enter");
-        header("Location:login.php");
-    }
+	 $userID = mysqli_real_escape_string($link, $_POST["userID"]);  
+     $password = mysqli_real_escape_string($link, $_POST["passwd"]);  
+     $query = "SELECT * FROM user WHERE userID = '$userID'";  
+     $result = mysqli_query($link, $query);  
+     if(mysqli_num_rows($result) > 0)  
+		{  
+        while($row = mysqli_fetch_array($result))  
+        {  
+            if(password_verify($password, $row["passwd"]))  
+            {  
+                //return true;  
+                $_SESSION["username"] = $username;  
+                header("location:courseSelection.php");  
+            } 
+			
+            else  
+            {  
+				//return false;  
+				echo '<script>alert("Wrong User Details")</script>';  
+            }  
+        }  
+    }  
+	
+	else  
+           {  
+                echo '<script>alert("Wrong User Details")</script>';  
+           } 
+
 
 }//closes if isset
 mysqli_close($link);
