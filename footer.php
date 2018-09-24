@@ -116,7 +116,7 @@
 				<div class="col">
 					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
 						<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a href="https://lyit.ie" target="_blank">DOiT</a></div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a href="https://lyit.ie" target="_blank">DoIT</a></div>
 						<div class="ml-lg-auto cr_links">
 							<ul class="cr_list">
 								<li><a href="admin_login.php">Admin Access</a></li>
