@@ -32,7 +32,7 @@
 								<script>
 								function myFunction() {
 									var txt;
-									if (confirm("Confirm to Apply!")) {
+									if (confirm("Applied Successfully!")) {
 										txt = "Applied Successfully, Thank You!";
 									} else {
 										txt = "Thank You for Visiting!";
