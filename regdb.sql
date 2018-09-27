@@ -1,3 +1,21 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Sep 27, 2018 at 09:13 AM
+-- Server version: 10.1.16-MariaDB
+-- PHP Version: 5.6.24
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
 -- Database: `regdb`
 --
@@ -54,41 +72,14 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`ID`, `Fname`, `Lname`, `street`, `village`, `town`, `county`, `email`, `phone`, `dob`, `pic`, `userID`) VALUES
-(3, '', 'fgsgfgs', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(4, 'fdea', 'fgsgfgs', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(5, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(6, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(7, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(8, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(9, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(10, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(11, 'Helen', 'Magoo', '', '', '', '', '', 0, '0000-00-00', '', ''),
-(30, 'kubjbj', 'ljolhi', 'Lone Lanw', '', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
-(31, 'Helen', 'lejodn', 'Port Rd', 'Woreong', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
-(32, 'Helen', 'lejodn', 'Port Rd', 'Woreong', 'Letterkenny', '', '', 0, '0000-00-00', '', ''),
-(33, 'dferfh', 'tcyjujh', 'South', '', 'Letterkenny', 'Donegal', '', 0, '0000-00-00', '', ''),
-(34, 'huifhauy', 'ygyuk', 'Mainn', '', 'Letterkenny', 'Donegal', 'eoanr@net.ie', 0, '0000-00-00', '', ''),
-(35, 'huifhauy', 'ygyuk', 'Mainn', '', 'Letterkenny', 'Donegal', 'eoanr@net.ie', 0, '0000-00-00', '', ''),
-(36, 'Jack', 'Rueeond', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '0000-00-00', '', ''),
-(37, 'Jack', 'Rueeond', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '0000-00-00', '', ''),
-(38, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'aed@iev.ie', 1648433348, '0000-00-00', '', ''),
-(39, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'aed@iev.ie', 1648433348, '0000-00-00', '', ''),
-(40, 'ddtyg', 'kjml;', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1990-05-24', '', ''),
-(41, 'ddtyg', 'kjml;', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1990-05-24', '', ''),
-(42, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'jdef@ner.ie', 56889632, '1992-10-21', 'images/team_2.j', ''),
-(43, 'djfeoaj', 'khkku', 'Mainn', '', 'Letterkenny', 'Donegal', 'jdef@ner.ie', 56889632, '1992-10-21', 'images/team_2.j', ''),
-(44, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(45, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(46, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(47, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(48, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(49, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(50, 'rafdfdf', 'khkku', 'Every', 'Place', 'Letterkenny', 'Donegal', 'werb@net.ie', 256936147, '1992-10-21', 'images/team_4.j', ''),
-(51, 'Eacen', 'Rueeond', 'Mainn', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1992-10-21', 'images/team_3.j', ''),
-(52, 'Sue', 'Brown', 'Lost', 'Cause', 'Letterkenny', 'Donegal', 'brown@net.ie', 2147483647, '1999-03-04', 'images/comment_', ''),
-(53, 'Sue', 'Jones', 'Port', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 513646846, '1999-03-04', 'images/team_1.j', ''),
-(54, 'dferfh', 'tcyjujh', 'Now', 'Done', 'Letterkenny', 'Donegal', 'werb@ime.ie', 2147483647, '1992-10-21', 'images/team_4.j', ''),
-(55, 'Test', 'ing', 'this', 'again', 'Letterkenny', 'Donegal', 'werb@ime.ie', 51348856, '1990-05-24', 'images/team_2.j', '');
+(57, 'Frank', 'Ewowon', '23 Any Street', '', 'Letterkenny', 'Donegal', 'werb@ime.ie', 25634883, '1998-02-14', 'comment_2.jpg', 'L001001041'),
+(58, 'Penopo', 'Brown', 'Cannan', 'Templogue', 'Dysart', 'Leitrim', 'sam@net.ie', 49436554, '1996-05-08', 'comment_2.jpg', 'L001001051'),
+(59, 'Jack', 'Jones', 'Lisansda', 'Balla', 'Letterkenny', 'Donegal', 'jack@nie.ie', 543138443, '1990-02-14', 'gallery_1.jpg', 'L001001061'),
+(60, 'Nora', 'Meeke', '12 Street Lane', '', 'Dunmore', 'Sligo', 'nora@eir.ie', 58813691, '1985-01-23', 'comment_1.jpg', 'L001001071'),
+(61, 'Helen', 'Mannion', '43 Rosseid St', '', 'Ballybofey', 'Donegal', 'helen@eir.ie', 2147483647, '1998-06-15', 'comment_3.jpg', 'L001001081'),
+(62, 'Jas', 'Loftus', '5 Rows Lane', '', 'Ballyshannon', 'Donegal', 'jas@gmail.com', 989151646, '1999-07-17', 'team_2.jpg', 'L001001091'),
+(63, 'Jas', 'Loftus', '5 Rows Lane', '', 'Ballyshannon', 'Donegal', 'jas@gmail.com', 989151646, '1999-07-17', 'team_2.jpg', 'L00100110'),
+(64, 'mary', 'kjhgjk', 'jhkj', 'jhgjkh', 'jhjhg', 'kjhgk', 'tom@gmail.com', 0, '2018-09-14', 'comment_2.jpg', '');
 
 -- --------------------------------------------------------
 
@@ -108,19 +99,14 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`ID`, `userID`, `passwd`, `courseID`) VALUES
-(1, '1111', 'work', 'aply1'),
-(2, 'L002222', 'work', 'cloud1'),
-(3, 'L003333', 'work', 'dev3'),
-(4, 'L004444', 'work', 'aply3'),
-(5, 'L005555', 'work', 'aply3'),
-(6, 'L006666', 'work', 'cloud1'),
-(7, 'L007777', 'work', 'NULL'),
-(8, 'L008888', 'finally', 'NULL'),
-(9, 'L009999', 'next', 'NULL'),
-(1000, 'L001000100', 'got', 'NULL'),
-(100100, 'L001001001', 'done', 'NULL'),
-(100101, 'L00100101', 'see', 'NULL'),
-(100102, 'L00', '', 'dev1');
+(100104, 'L001001041', '$2y$10$bwImmYThSLpXHdpDnM29q.Kf5f2tk9IHOb.LFwpbgoZsN3fYVCI4K', NULL),
+(100105, 'L001001051', '$2y$10$1Y6dWMTn3a/U2xP.gRE6EeNCANO/AVCyMIckoX7Xu2/4mkIdcvUjq', NULL),
+(100106, 'L001001061', '$2y$10$NAM3xOyfWQt4N1AzKA4V7.WAL9N3NacjtXaSc7aE0zeZhaTja3Gce', NULL),
+(100107, 'L001001071', '$2y$10$gBX5L5c.6IdNDDtxmuVUHOFmKTSUUBKXB0PKOcBmp4mx8DVNPMgSq', NULL),
+(100108, 'L001001081', '$2y$10$uh31f11OM10z/y0ALDqVAOAriIWHRVmiRFVD6kr.YYN7RppENF8I6', NULL),
+(100109, 'L001001091', '$2y$10$TJ8s.aIjUUAbudjRUPXpK.GR2ALzjpPrKKR99K5PNFeO0MNlGaKi2', NULL),
+(100110, 'L001001101', '$2y$10$kRf8SJGNn4KzjcrF9wbLauy7TnoaYN1IHYtVh1LzgzNoqbSLrCHaa', NULL),
+(100111, 'L00100111', '$2y$10$P6Bncb6AT9lWfmiiw1LRo.qybZ53BDpvLpAnkocHqER7LuCR6Q9p.', NULL);
 
 --
 -- Indexes for dumped tables
@@ -157,12 +143,22 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `ID` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `ID` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `ID` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100103;
+  MODIFY `ID` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100112;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `user`
+--
+ALTER TABLE `user`
+  ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`courseID`) REFERENCES `coursedetails` (`courseID`) ON DELETE NO ACTION ON UPDATE CASCADE;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
